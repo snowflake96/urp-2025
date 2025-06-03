@@ -1,0 +1,47 @@
+{
+  "patient_id": 10,
+  "folder_name": "10_MRA1",
+  "aneurysm_index": 46,
+  "aneurysm_info": {
+    "center": [
+      435,
+      300,
+      139
+    ],
+    "volume": 427.0,
+    "bbox": [
+      420,
+      297,
+      120,
+      442,
+      305,
+      160
+    ]
+  },
+  "crop_info": {
+    "original_center": [
+      435,
+      300,
+      139
+    ],
+    "crop_bbox": [
+      403,
+      467,
+      268,
+      332,
+      123,
+      155
+    ],
+    "crop_size": [
+      64,
+      64,
+      32
+    ]
+  },
+  "anatomical_locations": [],
+  "crop_size": [
+    64,
+    64,
+    32
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "patient_id": 11,
+  "folder_name": "11_MRA2",
+  "aneurysm_index": 14,
+  "aneurysm_info": {
+    "center": [
+      217,
+      586,
+      228
+    ],
+    "volume": 1962.0,
+    "bbox": [
+      200,
+      573,
+      222,
+      255,
+      612,
+      236
+    ]
+  },
+  "crop_info": {
+    "original_center": [
+      217,
+      586,
+      228
+    ],
+    "crop_bbox": [
+      185,
+      249,
+      554,
+      618,
+      212,
+      236
+    ],
+    "crop_size": [
+      64,
+      64,
+      32
+    ]
+  },
+  "anatomical_locations": [],
+  "crop_size": [
+    64,
+    64,
+    32
+  ]
+}
