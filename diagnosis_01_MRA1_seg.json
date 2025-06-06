@@ -1,0 +1,8 @@
+{
+  "patient_file": "01_MRA1_seg.nii.gz",
+  "expected_aneurysm_count": 1,
+  "aneurysm_labels": null,
+  "expected_locations": [],
+  "location_tolerance": 50,
+  "notes": "Default diagnosis - expecting 2 aneurysms based on clinical assessment"
+}

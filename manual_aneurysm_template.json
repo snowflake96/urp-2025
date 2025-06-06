@@ -1,0 +1,45 @@
+{
+  "patient_file": "01_MRA1_seg.nii.gz",
+  "manual_annotation": true,
+  "annotation_date": "2025-01-06",
+  "annotator": "Jiwoo Lee",
+  "image_info": {
+    "dimensions": [576, 768, 175],
+    "voxel_size_mm": [0.273, 0.273, 0.540],
+    "coordinate_system": "voxel_coordinates"
+  },
+  "aneurysms": [
+    {
+      "aneurysm_id": "aneurysm_1",
+      "centroid_voxel": [293, 338, 100],
+      "description": "Main aneurysm - manually verified location",
+      "confidence": "high",
+      "notes": "Located at the bifurcation point"
+    },
+    {
+      "aneurysm_id": "aneurysm_2", 
+      "centroid_voxel": [0, 0, 0],
+      "description": "Second aneurysm - EXAMPLE - replace with actual coordinates",
+      "confidence": "high",
+      "notes": "Replace with actual location if second aneurysm exists"
+    }
+  ],
+  "instructions": {
+    "coordinate_format": "Use [x, y, z] voxel coordinates where x=0-575, y=0-767, z=0-174",
+    "how_to_find_coordinates": [
+      "1. Open the NIfTI file in an image viewer (ITK-SNAP, 3D Slicer, FSLeyes, or ImageJ)",
+      "2. Navigate to the aneurysm location",
+      "3. Click on the center of the aneurysm",
+      "4. Note the voxel coordinates displayed",
+      "5. Enter the coordinates in the 'centroid_voxel' field",
+      "6. Remove unused aneurysm entries",
+      "7. Save this file as 'manual_aneurysm_locations.json'"
+    ],
+    "coordinate_system_explanation": {
+      "x_axis": "Left-Right (0 = leftmost, 575 = rightmost)",
+      "y_axis": "Anterior-Posterior (0 = front, 767 = back)", 
+      "z_axis": "Superior-Inferior (0 = bottom, 174 = top)"
+    },
+    "validation": "Run: python validate_manual_coordinates.py manual_aneurysm_locations.json"
+  }
+} 

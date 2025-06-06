@@ -1,0 +1,49 @@
+{
+  "nifti_file": " example_data/01_MRA1_seg.nii.gz",
+  "manual_coords_file": "my_aneurysm_locations.json",
+  "validation_date": "2025-01-06",
+  "annotator": "Jiwoo Lee",
+  "image_shape": [
+    576,
+    768,
+    175
+  ],
+  "total_specified": 2,
+  "valid_aneurysms": 2,
+  "aneurysms": [
+    {
+      "aneurysm_id": "aneurysm_1",
+      "annotation_type": "centroid",
+      "points": [
+        {
+          "point_name": "centroid",
+          "coordinates": [
+            156,
+            272,
+            98
+          ],
+          "voxel_value": 1.0000000591389835
+        }
+      ],
+      "description": "Main aneurysm - REPLACE WITH CORRECT COORDINATES",
+      "confidence": "high"
+    },
+    {
+      "aneurysm_id": "aneurysm_2",
+      "annotation_type": "centroid",
+      "points": [
+        {
+          "point_name": "centroid",
+          "coordinates": [
+            269,
+            296,
+            83
+          ],
+          "voxel_value": 1.0000000591389835
+        }
+      ],
+      "description": "Second aneurysm - REPLACE WITH ACTUAL COORDINATES OR DELETE THIS ENTRY",
+      "confidence": "high"
+    }
+  ]
+}

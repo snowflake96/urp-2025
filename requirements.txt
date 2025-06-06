@@ -31,6 +31,9 @@ SimpleITK>=2.3.0
 nibabel>=5.1.0
 scikit-image>=0.21.0
 opencv-python>=4.8.0
+Pillow>=10.0.0
+imageio>=2.31.0
+itk>=5.4.0
 
 # Visualization
 matplotlib>=3.7.0

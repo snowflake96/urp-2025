@@ -1,0 +1,85 @@
+{
+  "patient_file": "01_MRA1_seg.nii.gz",
+  "manual_annotation": true,
+  "annotation_date": "2025-01-06",
+  "annotator": "Jiwoo Lee",
+  "annotation_method": "centroid",
+  "image_info": {
+    "dimensions": [576, 768, 175],
+    "voxel_size_mm": [0.273, 0.273, 0.540],
+    "coordinate_system": "voxel_coordinates"
+  },
+  "aneurysms": [
+    {
+      "aneurysm_id": "aneurysm_1",
+      "annotation_type": "centroid",
+      "centroid_voxel": [156, 272, 98],
+      "description": "Main aneurysm - REPLACE WITH CORRECT COORDINATES",
+      "confidence": "high",
+      "notes": "Edit the centroid_voxel coordinates above"
+    },
+    {
+      "aneurysm_id": "aneurysm_2",
+      "annotation_type": "centroid", 
+      "centroid_voxel": [269, 296, 83],
+      "description": "Second aneurysm - REPLACE WITH ACTUAL COORDINATES OR DELETE THIS ENTRY",
+      "confidence": "high",
+      "notes": "Only keep this if you have a second aneurysm"
+    }
+  ],
+  "annotation_guidelines": {
+    "centroid_method": {
+      "description": "Single point at the geometric center of the aneurysm",
+      "instructions": [
+        "1. Identify the aneurysm volume in all three views",
+        "2. Find the approximate geometric center (middle point)",
+        "3. Click on this center point to get coordinates",
+        "4. Use these coordinates as 'centroid_voxel'"
+      ],
+      "recommended_for": "Most use cases, detection algorithms, STL generation"
+    },
+    "multiple_points_method": {
+      "description": "Multiple key anatomical points on the aneurysm",
+      "instructions": [
+        "1. Centroid: geometric center of the aneurysm",
+        "2. Dome tip: highest/most protruding point",
+        "3. Neck center: center of the neck connecting to vessel",
+        "4. Max width: widest point of the aneurysm"
+      ],
+      "recommended_for": "Complex aneurysms, detailed shape analysis"
+    },
+    "bounding_box_method": {
+      "description": "Min/max coordinates that fully contain the aneurysm",
+      "instructions": [
+        "1. Find the leftmost, rightmost, frontmost, backmost, topmost, bottommost points",
+        "2. min_coords = [min_x, min_y, min_z]",
+        "3. max_coords = [max_x, max_y, max_z]",
+        "4. Also provide centroid for reference"
+      ],
+      "recommended_for": "Volume estimation, region cropping"
+    }
+  },
+  "coordinate_system_info": {
+    "x_axis": "Left-Right (0 = leftmost, 575 = rightmost)",
+    "y_axis": "Anterior-Posterior (0 = front, 767 = back)",
+    "z_axis": "Superior-Inferior (0 = bottom, 174 = top)",
+    "units": "voxels",
+    "origin": "Image corner (0,0,0)"
+  },
+  "instructions": {
+    "how_to_edit": [
+      "1. Replace [293, 338, 100] with the correct coordinates for aneurysm_1",
+      "2. If you have a second aneurysm, replace [0, 0, 0] with its coordinates",
+      "3. If you only have one aneurysm, delete the aneurysm_2 entry completely",
+      "4. Save the file",
+      "5. Run: python validate_manual_coordinates.py my_aneurysm_locations.json"
+    ],
+    "coordinate_system": {
+      "x_axis": "0-575 (Left-Right)",
+      "y_axis": "0-767 (Front-Back)", 
+      "z_axis": "0-174 (Bottom-Top)",
+      "current_detection": "Algorithm detected at [293, 338, 100] but voxel value is 0.0 (wrong!)",
+      "what_you_need": "Find coordinates where voxel value > 0.5 (actual aneurysm tissue)"
+    }
+  }
+} 

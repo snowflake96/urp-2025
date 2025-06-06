@@ -1,0 +1,69 @@
+{
+  "validation": {
+    "file_exists": true,
+    "file_readable": true,
+    "valid_nifti": true,
+    "errors": [],
+    "warnings": []
+  },
+  "basic_info": {
+    "file_path": " example_data/01_MRA1_seg.nii.gz",
+    "file_size_mb": 0.43,
+    "dimensions": [
+      576,
+      768,
+      175
+    ],
+    "data_type": "float64",
+    "total_voxels": 77414400,
+    "non_zero_voxels": 201274,
+    "voxel_size": [
+      0.2734375,
+      0.2734375,
+      0.5400000214576721
+    ],
+    "orientation": [
+      "L",
+      "P",
+      "S"
+    ]
+  },
+  "intensity_stats": {
+    "min_value": 0.0,
+    "max_value": 1.0000000591389835,
+    "mean_value": 0.0025999557175814805,
+    "std_value": 0.05092343371775705,
+    "median_value": 0.0,
+    "min_nonzero": 1.0000000591389835,
+    "max_nonzero": 1.0000000591389835,
+    "mean_nonzero": 1.0000000591389835,
+    "std_nonzero": 0.0,
+    "median_nonzero": 1.0000000591389835
+  },
+  "label_info": {
+    "total_labels": 2,
+    "background_label": "0",
+    "foreground_labels": 1,
+    "label_details": {
+      "0": {
+        "count": 77213126,
+        "percentage": 99.74000444361772
+      },
+      "1": {
+        "count": 201274,
+        "percentage": 0.2599955563822751
+      }
+    },
+    "non_background_labels": {
+      "1": {
+        "count": 201274,
+        "percentage": 0.2599955563822751
+      }
+    },
+    "unique_values": [
+      0,
+      1
+    ]
+  },
+  "segment_analysis": {}
+}
