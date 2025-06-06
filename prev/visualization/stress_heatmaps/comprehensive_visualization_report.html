@@ -1,0 +1,136 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>3D Stress Heatmap Analysis Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                .header { background-color: #f8f9fa; padding: 20px; border-radius: 8px; }
+                .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
+                .card { background-color: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+                .metric { font-size: 2em; font-weight: bold; color: #007bff; }
+                .label { color: #6c757d; margin-top: 5px; }
+                table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+                th, td { border: 1px solid #dee2e6; padding: 12px; text-align: left; }
+                th { background-color: #f8f9fa; }
+                .high-risk { color: #dc3545; font-weight: bold; }
+                .moderate-risk { color: #fd7e14; }
+                .low-risk { color: #28a745; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>3D Stress Heatmap Analysis Report</h1>
+                <p>Comprehensive biomechanical stress analysis and visualization for aneurysm risk assessment</p>
+                <p><strong>Analysis Date:</strong> 2025-06-05 02:15:05</p>
+            </div>
+            
+            <div class="summary">
+                <div class="card">
+                    <div class="metric">68</div>
+                    <div class="label">Total Cases Analyzed</div>
+                </div>
+                <div class="card">
+                    <div class="metric">35</div>
+                    <div class="label">High-Risk Cases</div>
+                </div>
+                <div class="card">
+                    <div class="metric">200.3 kPa</div>
+                    <div class="label">Mean Max Stress</div>
+                </div>
+                <div class="card">
+                    <div class="metric">7.4/10</div>
+                    <div class="label">Mean Risk Score</div>
+                </div>
+            </div>
+            
+            <h2>Regional Analysis Summary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Region</th>
+                        <th>Cases</th>
+                        <th>Mean Risk</th>
+                        <th>Max Risk</th>
+                        <th>Mean Stress (kPa)</th>
+                        <th>Mean Safety Factor</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                    <tr>
+                        <td>Acom</td>
+                        <td>5</td>
+                        <td class="high-risk">9.9</td>
+                        <td>10.0</td>
+                        <td>273.6</td>
+                        <td>1.84</td>
+                    </tr>
+            
+                    <tr>
+                        <td>ICA_cavernous</td>
+                        <td>3</td>
+                        <td class="low-risk">5.0</td>
+                        <td>5.0</td>
+                        <td>125.7</td>
+                        <td>6.37</td>
+                    </tr>
+            
+                    <tr>
+                        <td>ICA_noncavernous</td>
+                        <td>30</td>
+                        <td class="high-risk">9.1</td>
+                        <td>9.5</td>
+                        <td>258.0</td>
+                        <td>1.95</td>
+                    </tr>
+            
+                    <tr>
+                        <td>ICA_total</td>
+                        <td>27</td>
+                        <td class="moderate-risk">5.5</td>
+                        <td>5.5</td>
+                        <td>130.6</td>
+                        <td>6.20</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Other_posterior</td>
+                        <td>1</td>
+                        <td class="low-risk">4.5</td>
+                        <td>4.5</td>
+                        <td>190.9</td>
+                        <td>3.14</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Pcom</td>
+                        <td>2</td>
+                        <td class="moderate-risk">6.5</td>
+                        <td>6.5</td>
+                        <td>209.0</td>
+                        <td>2.93</td>
+                    </tr>
+            
+                </tbody>
+            </table>
+            
+            <h2>Generated Visualizations</h2>
+            <ul>
+                <li><strong>Population Stress Overview:</strong> Comprehensive population-level analysis with multiple visualization panels</li>
+                <li><strong>High-Risk Comparison:</strong> Detailed comparison between high-risk and low-risk cases</li>
+                <li><strong>Individual 3D Heatmaps:</strong> Interactive 3D stress distribution visualizations for high-risk cases</li>
+            </ul>
+            
+            <h2>Clinical Recommendations</h2>
+            <div class="card">
+                <ul>
+                    <li>Immediate intervention recommended for cases with risk score > 8.0</li>
+                    <li>Enhanced monitoring for cases with safety factor < 2.0</li>
+                    <li>Regional focus on Acom and ICA_noncavernous locations due to elevated risk profiles</li>
+                    <li>Consider patient age and hypertension status in treatment planning</li>
+                </ul>
+            </div>
+        </body>
+        </html>
+        
