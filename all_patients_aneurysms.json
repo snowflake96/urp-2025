@@ -629,7 +629,7 @@
         "aneurysm_id": "aneurysm_1",
         "internal_point": [
           242,
-          288,
+          208,
           67  
         ],
         "description": "ICA"
@@ -953,7 +953,7 @@
       {
         "aneurysm_id": "aneurysm_1",
         "internal_point": [
-          335,
+          355,
           292,
           76  
         ],
