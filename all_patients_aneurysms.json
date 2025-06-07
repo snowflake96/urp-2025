@@ -1,198 +1,4 @@
 {
-  "01_MRA1_seg": {
-    "aneurysms": [
-      {
-        "aneurysm_id": "aneurysm_1",
-        "internal_point": [
-          156,
-          272,
-          98
-        ],
-        "description": "MCA aneurysm"
-      },
-      {
-        "aneurysm_id": "aneurysm_2",
-        "internal_point": [
-          269,
-          296,
-          83
-        ],
-        "description": "ICA aneurysm"
-      }
-    ]
-  },
-  "01_MRA2_seg": {
-    "aneurysms": [
-      {
-        "aneurysm_id": "aneurysm_1",
-        "internal_point": [
-          110,
-          193,
-          73
-        ],
-        "description": "MCA aneurysm"
-      },
-      {
-        "aneurysm_id": "aneurysm_2",
-        "internal_point": [
-          186,
-          208,
-          63
-        ],
-        "description": "ICA aneurysm"
-      }
-    ]
-  },
-  "02_MRA1_seg": {
-    "aneurysms": [
-      {
-        "aneurysm_id": "aneurysm_1",
-        "internal_point": [
-          242,
-          232,
-          90
-        ],
-        "description": "ICA aneurysm, F7-1"
-      },
-      {
-        "aneurysm_id": "aneurysm_2",
-        "internal_point": [
-          228,
-          234,
-          96
-        ],
-        "description": "Pcom aneurysm, F8-1"
-      },
-      {
-        "aneurysm_id": "aneurysm_3",
-        "internal_point": [
-          224,
-          239,
-          112
-        ],
-        "description": "MCA aneurysm, F10-1"
-      }
-    ]
-  },
-  "02_MRA2_seg": {
-    "aneurysms": [
-      {
-        "aneurysm_id": "aneurysm_1",
-        "internal_point": [
-          471,
-          461,
-          61
-        ],
-        "description": "ICA aneurysm"
-      },
-      {
-        "aneurysm_id": "aneurysm_2",
-        "internal_point": [
-          447,
-          475,
-          67
-        ],
-        "description": "Pcom aneurysm"
-      },
-      {
-        "aneurysm_id": "aneurysm_3",
-        "internal_point": [
-          440,
-          486,
-          82
-        ],
-        "description": "MCA aneurysm"
-      }
-    ]
-  },
-  "03_MRA1_seg": {
-    "aneurysms": [
-      {
-        "aneurysm_id": "aneurysm_1",
-        "internal_point": [
-          269,
-          328,
-          78
-        ],
-        "description": "ICA_1"
-      },
-      {
-        "aneurysm_id": "aneurysm_2",
-        "internal_point": [
-          336,
-          324,
-          79
-        ],
-        "description": "ICA_2"
-      }
-    ]
-  },
-  "03_MRA2_seg": {
-    "aneurysms": [
-      {
-        "aneurysm_id": "aneurysm_1",
-        "internal_point": [
-          332,
-          421,
-          122
-        ],
-        "description": "ICA_1"
-      },
-      {
-        "aneurysm_id": "aneurysm_2",
-        "internal_point": [
-          408,
-          419,
-          125
-        ],
-        "description": "ICA_2"
-      }
-    ]
-  },
-  "04_MRA1_seg": {
-    "aneurysms": [
-      {
-        "aneurysm_id": "aneurysm_1",
-        "internal_point": [
-          158,
-          147,
-          111
-        ],
-        "description": "ICA"
-      },
-      {
-        "aneurysm_id": "aneurysm_2",
-        "internal_point": [
-          148,
-          153,
-          135
-        ],
-        "description": "Acom"
-      }
-    ]
-  },
-  "04_MRA2_seg": {
-    "aneurysms": [
-      {
-        "aneurysm_id": "aneurysm_1",
-        "internal_point": [
-          449,
-          318,
-          46
-        ],
-        "description": "ICA"
-      },
-      {
-        "aneurysm_id": "aneurysm_2",
-        "internal_point": [
-          427,
-          326,
-          80
-        ],
-        "description": "Acom"
-      }
-    ]
-  },
   "06_MRA1_seg": {
     "aneurysms": [
       {
@@ -294,6 +100,1046 @@
           78 
         ],
         "description": "Acom"
+      }
+    ]
+  },
+  "11_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          303,
+          239,
+          71
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "11_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          426,
+          409,
+          94
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "14_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          271,
+          189,
+          99  
+        ],
+        "description": "Acom"
+      }
+    ]
+  },
+  "14_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          372,
+          376,
+          153  
+        ],
+        "description": "Acom"
+      }
+    ]
+  },
+  "16_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          173,
+          215,
+          94  
+        ],
+        "description": "MCA"
+      }
+    ]
+  },
+  "16_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          110,
+          185,
+          111  
+        ],
+        "description": "MCA"
+      }
+    ]
+  },
+  "17_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          279,
+          205,
+          50    
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "17_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          273,
+          214,
+          60  
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "18_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          262,
+          316,
+          83  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "18_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          162,
+          189,
+          87  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "23_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          259,
+          327,
+          81  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "23_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          474,
+          444,
+          74  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "26_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          265,
+          187,
+          82  
+        ],
+        "description": "Acom"
+      }
+    ]
+  },
+  "26_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          267,
+          184,
+          116  
+        ],
+        "description": "Acom"
+      }
+    ]
+  },
+  "27_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          287,
+          220,
+          82  
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "27_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          275,
+          211,
+          63  
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "31_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          207,
+          303,
+          50  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "31_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          282,
+          290,
+          86 
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "35_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          268,
+          190,
+          90  
+        ],
+        "description": "Acom"
+      }
+    ]
+  },
+  "35_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          179,
+          182,
+          55  
+        ],
+        "description": "Acom"
+      }
+    ]
+  },
+  "37_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          297,
+          244,
+          70  
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "37_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          288,
+          214,
+          39  
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "38_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          237,
+          212,
+          71  
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "38_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          223,
+          214,
+          79  
+        ],
+        "description": "Pcom"
+      }
+    ]
+  },
+  "40_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          344,
+          320,
+          73  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "40_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          296,
+          215,
+          79  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "42_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          257,
+          300,
+          69  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "42_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          241,
+          220,
+          58  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "44_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          301,
+          223,
+          66  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "44_MRA2_seg": {
+    "aneurysms": [
+      { 
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          288,
+          218,
+          31  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "49_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          169,
+          279,
+          46 
+        ],
+        "description": "MCA"
+      }
+    ]
+  },
+  "49_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          179,
+          208,
+          88 
+        ],
+        "description": "MCA"
+      }
+    ]
+  },
+  "53_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          259,
+          188,
+          64 
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "53_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          167,
+          179,
+          88 
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "54_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          232,
+          197,
+          68    
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "54_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          288,
+          243,
+          38  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "55_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          283,
+          194,
+          75  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "55_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          402,
+          358,
+          128  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "56_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          242,
+          192,
+          84  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "56_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          474,
+          399,
+          75  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "57_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          242,
+          288,
+          67  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "57_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          331,
+          374,
+          90  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "59_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          281,
+          180,
+          77  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "59_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          273,
+          201,
+          30  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "60_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          317,
+          312,
+          85  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "60_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",  
+        "internal_point": [
+          287,
+          197,
+          79  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "62_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          162,
+          151,
+          115  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "62_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          277,
+          210,
+          44  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "63_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          246,
+          205,
+          78  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "63_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          298,
+          244,
+          76  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "65_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          287,
+          202,
+          80  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "65_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          269,
+          206,
+          48  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "67_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          236,
+          191,
+          87  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "67_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          294,
+          225,
+          47 
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "68_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          326,
+          274,
+          88  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "68_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          231,
+          183,
+          58  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "69_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          315,
+          302,
+          79  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "69_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          204,
+          173,
+          90  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "70_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          262,
+          299,
+          87  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "70_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",  
+        "internal_point": [
+          407,
+          345,
+          49  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "71_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          298,
+          209,
+          77  
+        ],  
+        "description": "ICA"
+      }
+    ]
+  },
+  "71_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          563,
+          417,
+          47  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "74_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          147,
+          146,
+          120  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "74_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          365,
+          381,
+          147  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "76_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          335,
+          293,
+          89  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "76_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          335,
+          292,
+          76  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "77_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          300,
+          183,
+          70  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "77_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          289,
+          193,
+          42  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "78_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          308,
+          177,
+          63  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "78_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          290,
+          195,
+          40  
+        ],  
+        "description": "ICA"
+      }
+    ]
+  },
+  "79_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          283,
+          199,
+          79  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "79_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          393,
+          382,
+          142  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "80_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          158,
+          158,
+          110  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "80_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          278,
+          222,
+          64  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "81_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",  
+        "internal_point": [
+          127,
+          159,
+          109  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "81_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          314,
+          263,
+          69  
+        ],    
+        "description": "ICA"
+      }
+    ]
+  },
+  "83_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          242,
+          186,
+          78  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "83_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",  
+        "internal_point": [
+          229,
+          190,
+          43  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "84_MRA1_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          256,
+          272,
+          87  
+        ],
+        "description": "ICA"
+      }
+    ]
+  },
+  "84_MRA2_seg": {
+    "aneurysms": [
+      {
+        "aneurysm_id": "aneurysm_1",
+        "internal_point": [
+          236,
+          190,
+          46  
+        ],  
+        "description": "ICA"
       }
     ]
   }
