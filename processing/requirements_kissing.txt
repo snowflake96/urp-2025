@@ -1,0 +1,32 @@
+# Requirements for Advanced Kissing Artifact Removal
+# Install with: pip install -r requirements_kissing.txt
+
+# Basic requirements (already in main requirements.txt)
+numpy>=1.19.0
+scipy>=1.5.0
+nibabel>=3.0.0
+scikit-image>=0.17.0
+trimesh>=3.9.0
+pymeshlab>=2021.7
+matplotlib>=3.3.0
+
+# For topological analysis
+# Note: GUDHI is better installed via conda:
+# conda install -c conda-forge gudhi
+# If using pip:
+gudhi==3.8.0
+
+# For vessel analysis  
+# Note: VMTK is better installed via conda:
+# conda install -c vmtk vtk itk vmtk
+# If using pip:
+# vmtk  # Uncomment if installing via pip
+
+# Optional GPU support
+# cupy-cuda11x  # Uncomment and adjust version for your CUDA
+
+# For parallel processing
+joblib>=1.0.0
+
+# For network analysis (used in some algorithms)
+networkx>=2.5 

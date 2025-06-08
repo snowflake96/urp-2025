@@ -1,0 +1,1473 @@
+{
+  "metadata": {
+    "created_date": "2025-06-08",
+    "description": "Extraction settings for geodesic small orthogonal vessel extraction",
+    "extraction_method": "geodesic_small_orthogonal",
+    "total_patients": 88,
+    "parameter_explanations": {
+      "max_distance_mm": "Maximum distance from aneurysm location to extract (mm)",
+      "target_vertices": "Target number of vertices in extracted vessel",
+      "orthogonal_constraints": "Apply vessel direction constraints for circular openings",
+      "constraint_radius_mm": "Distance from aneurysm where constraints start (mm)",
+      "max_angle_deviation_deg": "Maximum angle deviation from vessel direction (degrees)"
+    }
+  },
+  "default_settings": {
+    "extraction_method": "geodesic_small_orthogonal",
+    "target_vertices": 4500,
+    "max_distance_mm": 16.0,
+    "min_distance_mm": 0.0,
+    "orthogonal_constraints": true,
+    "vessel_direction_analysis": true,
+    "constraint_radius_mm": 12.0,
+    "max_angle_deviation_deg": 35.0
+  },
+  "size_categories": {
+    "small_extraction": {
+      "max_distance_mm": 12.0,
+      "target_vertices": 3500,
+      "description": "Conservative extraction for complex anatomy"
+    },
+    "medium_extraction": {
+      "max_distance_mm": 16.0,
+      "target_vertices": 4500,
+      "description": "Standard extraction for most cases"
+    },
+    "large_extraction": {
+      "max_distance_mm": 20.0,
+      "target_vertices": 6000,
+      "description": "Extended extraction for large vessels"
+    }
+  },
+  "patient_settings": {
+    "06_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        80.756103515625,
+        90.80416870117188,
+        49.69416427612305
+      ],
+      "target_vertices": 4950,
+      "max_distance_mm": 17.6,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "06_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        105.6163101196289,
+        86.64938354492188,
+        22.013669967651367
+      ],
+      "target_vertices": 4000,
+      "max_distance_mm": 14.0,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "override_reason": "Smaller extraction for testing",
+      "size_category": "medium_extraction"
+    },
+    "07_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        69.235107421875,
+        95.46305847167969,
+        65.47220611572266
+      ],
+      "target_vertices": 4800,
+      "max_distance_mm": 18.0,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "override_reason": "Larger extraction needed",
+      "size_category": "large_extraction"
+    },
+    "07_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        71.37678527832031,
+        97.8731460571289,
+        59.69462966918945
+      ],
+      "target_vertices": 4275,
+      "max_distance_mm": 15.2,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "medium_extraction"
+    },
+    "08_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        103.2348861694336,
+        79.0287857055664,
+        43.730308532714844
+      ],
+      "target_vertices": 4950,
+      "max_distance_mm": 17.6,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "08_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        80.21221923828125,
+        86.28679656982422,
+        58.671043395996094
+      ],
+      "target_vertices": 4275,
+      "max_distance_mm": 15.2,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "medium_extraction"
+    },
+    "09_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        96.62378692626953,
+        75.4312515258789,
+        57.033878326416016
+      ],
+      "target_vertices": 4620,
+      "max_distance_mm": 16.5,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "medium_extraction"
+    },
+    "09_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        99.8980712890625,
+        86.7281494140625,
+        31.3520565032959
+      ],
+      "target_vertices": 3990,
+      "max_distance_mm": 14.25,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "medium_extraction"
+    },
+    "11_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        116.22419738769531,
+        90.52769470214844,
+        42.6014518737793
+      ],
+      "target_vertices": 4620,
+      "max_distance_mm": 16.5,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "medium_extraction"
+    },
+    "11_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        105.1102294921875,
+        101.16517639160156,
+        43.05553436279297
+      ],
+      "target_vertices": 3990,
+      "max_distance_mm": 14.25,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "medium_extraction"
+    },
+    "14_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        103.4171142578125,
+        71.98848724365234,
+        60.2470703125
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "14_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        96.50457000732422,
+        96.9971694946289,
+        72.5055160522461
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "16_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        66.2267074584961,
+        82.64366149902344,
+        56.80727005004883
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "16_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        55.463375091552734,
+        93.29471588134766,
+        56.74686050415039
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "17_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        113.47303771972656,
+        83.54071044921875,
+        19.57655906677246
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "17_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        117.79610443115234,
+        92.68038940429688,
+        23.542760848999023
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "18_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        71.26732635498047,
+        87.74283599853516,
+        44.264591217041016
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "18_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        80.85401916503906,
+        96.45201110839844,
+        42.61286926269531
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "23_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        70.83692932128906,
+        89.3974609375,
+        41.78752136230469
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "23_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        97.490966796875,
+        89.9894790649414,
+        46.07545852661133
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "26_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        124.63701629638672,
+        88.32270050048828,
+        49.751426696777344
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "26_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        102.0079345703125,
+        70.89830780029297,
+        68.98579406738281
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "27_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        108.36500549316406,
+        84.48335266113281,
+        48.3727912902832
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "27_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        111.29911041259766,
+        85.54485321044922,
+        23.983856201171875
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "31_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        79.17546081542969,
+        114.65159606933594,
+        34.506221771240234
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "31_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        88.54048156738281,
+        91.79239654541016,
+        42.20927047729492
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "35_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        102.59335327148438,
+        72.5434799194336,
+        53.50424575805664
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "35_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        91.42283630371094,
+        90.81730651855469,
+        27.768142700195312
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "37_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        113.66423797607422,
+        93.04901885986328,
+        40.99749755859375
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "37_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        118.15557098388672,
+        87.23110961914062,
+        15.189140319824219
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "38_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        89.67599487304688,
+        78.50579071044922,
+        40.698421478271484
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "38_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        74.36421966552734,
+        69.89018249511719,
+        28.926855087280273
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "40_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        95.60342407226562,
+        87.4411392211914,
+        40.00102996826172
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "40_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        121.96910858154297,
+        86.495361328125,
+        31.587764739990234
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "42_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        70.79491424560547,
+        80.91010284423828,
+        35.99647903442383
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "42_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        90.8432388305664,
+        83.54576873779297,
+        33.09485626220703
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "44_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        113.26467895507812,
+        84.05757904052734,
+        41.27009963989258
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "44_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        118.11222839355469,
+        88.83558654785156,
+        12.27631950378418
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "49_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        63.839691162109375,
+        105.77375793457031,
+        33.27716827392578
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "49_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        67.29203796386719,
+        77.0088119506836,
+        53.31636428833008
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "53_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        98.140625,
+        71.6124038696289,
+        36.8454475402832
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "53_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        85.42205047607422,
+        90.09688568115234,
+        44.90812301635742
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "54_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        87.25798797607422,
+        76.4286117553711,
+        40.27975845336914
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "54_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        89.1878433227539,
+        77.19361877441406,
+        13.978354454040527
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "55_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        106.80574798583984,
+        75.08402252197266,
+        43.37249755859375
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "55_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        98.2047348022461,
+        89.23570251464844,
+        59.36420822143555
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "56_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        93.51004028320312,
+        73.16338348388672,
+        51.184871673583984
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "56_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        98.12657165527344,
+        82.33192443847656,
+        29.944446563720703
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "57_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        90.884521484375,
+        79.76139831542969,
+        39.534912109375
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "57_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        86.41130828857422,
+        96.25141906738281,
+        42.73231887817383
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "59_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        107.37815856933594,
+        68.96110534667969,
+        45.1469612121582
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "59_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        110.76199340820312,
+        81.73726654052734,
+        11.051451683044434
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "60_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        87.58159637451172,
+        85.9285888671875,
+        45.253883361816406
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "60_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        109.5602798461914,
+        75.7457046508789,
+        47.18148422241211
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "62_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        90.85481262207031,
+        85.38310241699219,
+        62.21396255493164
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "62_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        112.90387725830078,
+        85.72623443603516,
+        16.86530876159668
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "63_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        92.4772720336914,
+        78.49933624267578,
+        46.0960578918457
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "63_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        93.08360290527344,
+        77.31797790527344,
+        37.019168853759766
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "65_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        109.79965209960938,
+        77.41542053222656,
+        46.77676010131836
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "65_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        107.61032104492188,
+        82.48554229736328,
+        19.7374210357666
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "67_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        90.98439025878906,
+        72.89295959472656,
+        52.59151077270508
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "67_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        90.9213638305664,
+        70.6011734008789,
+        17.085289001464844
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "68_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        88.2077407836914,
+        74.08187103271484,
+        48.00363540649414
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "68_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        99.91004180908203,
+        80.1650619506836,
+        34.08364486694336
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "69_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        86.0298080444336,
+        83.86798095703125,
+        42.52165603637695
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "69_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        102.90031433105469,
+        88.01297760009766,
+        44.92718505859375
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "70_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        72.83637237548828,
+        80.69792175292969,
+        47.62306594848633
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "70_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        92.18655395507812,
+        79.6388931274414,
+        18.785612106323242
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "71_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        114.39177703857422,
+        80.73003387451172,
+        45.267086029052734
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "71_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        117.06617736816406,
+        86.86518096923828,
+        18.711864471435547
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "74_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        83.95462036132812,
+        84.60636901855469,
+        64.29048919677734
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "74_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        93.08757019042969,
+        97.04988098144531,
+        69.54696655273438
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "76_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        92.04931640625,
+        81.22761535644531,
+        48.03933334350586
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "76_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        102.54953002929688,
+        83.96430969238281,
+        44.473873138427734
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "77_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        114.29924774169922,
+        70.76270294189453,
+        41.199947357177734
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "77_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        116.94789123535156,
+        78.76876068115234,
+        15.753491401672363
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "78_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        117.8344497680664,
+        67.9641342163086,
+        38.030921936035156
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "78_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        118.80663299560547,
+        79.71939849853516,
+        16.578807830810547
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "79_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        107.47381591796875,
+        75.91122436523438,
+        46.78759002685547
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "79_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        101.20474243164062,
+        98.81005859375,
+        65.51841735839844
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "80_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        91.31262969970703,
+        91.0592269897461,
+        58.38519287109375
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "80_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        111.34619140625,
+        89.33685302734375,
+        26.341772079467773
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "81_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        71.78533172607422,
+        92.22269439697266,
+        56.79112243652344
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "81_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        100.56352996826172,
+        81.86270904541016,
+        42.04375457763672
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "83_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        93.1924819946289,
+        70.87179565429688,
+        47.00300979614258
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "83_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        91.79580688476562,
+        77.64226531982422,
+        16.58525276184082
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "84_MRA1_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        71.07313537597656,
+        73.29215240478516,
+        47.65999984741211
+      ],
+      "target_vertices": 5500,
+      "max_distance_mm": 19.8,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    },
+    "84_MRA2_seg": {
+      "extraction_method": "geodesic_small_orthogonal",
+      "aneurysm_location": [
+        94.94773864746094,
+        77.80567169189453,
+        17.563690185546875
+      ],
+      "target_vertices": 4750,
+      "max_distance_mm": 17.099999999999998,
+      "min_distance_mm": 0.0,
+      "orthogonal_constraints": true,
+      "vessel_direction_analysis": true,
+      "constraint_radius_mm": 12.0,
+      "max_angle_deviation_deg": 35.0,
+      "size_category": "large_extraction"
+    }
+  },
+  "summary": {
+    "distance_statistics": {
+      "mean_max_distance_mm": 18.161363636363635,
+      "std_max_distance_mm": 1.5821577482968852,
+      "min_max_distance_mm": 14.0,
+      "max_max_distance_mm": 19.8
+    },
+    "vertex_statistics": {
+      "mean_target_vertices": 5047.954545454545,
+      "std_target_vertices": 431.8351671300613,
+      "min_target_vertices": 3990,
+      "max_target_vertices": 5500
+    },
+    "category_counts": {
+      "small_extractions": 0,
+      "medium_extractions": 7,
+      "large_extractions": 81
+    }
+  }
+}

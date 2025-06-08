@@ -1,0 +1,671 @@
+{
+  "metadata": {
+    "analysis_date": "2025-06-08 19:35:52",
+    "extraction_method": "geodesic_small_orthogonal",
+    "total_patients_analyzed": 10,
+    "failed_analyses": 0,
+    "vessel_directory": "/home/jiwoo/urp/data/uan/aneurysm_vessels_geo_small_orthogonal",
+    "aneurysm_data_source": "../all_patients_aneurysms_for_stl.json"
+  },
+  "summary_statistics": {
+    "max_distance_mm": {
+      "mean": 12.225983013909879,
+      "std": 2.494433708685557,
+      "min": 8.170529776116009,
+      "max": 15.991834761777158
+    },
+    "effective_radius_mm": {
+      "mean": 10.316315624447943,
+      "std": 2.19521890606474,
+      "min": 6.564222828470215,
+      "max": 14.431964647304914
+    },
+    "vessel_sizes": {
+      "small_vessels_le15mm": 8,
+      "medium_vessels_15_25mm": 2,
+      "large_vessels_gt25mm": 0
+    }
+  },
+  "patient_data": {
+    "06_MRA1_seg": {
+      "total_vertices": 4499,
+      "total_faces": 8847,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 346.2673530562778,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 9.736872393356435,
+        "avg_distance_mm": 5.551817492662889,
+        "median_distance_mm": 5.5273537752657464,
+        "std_distance_mm": 1.9581486842485742,
+        "effective_radius_mm": 8.211389125965654
+      },
+      "distance_percentiles": {
+        "p50_mm": 5.5273537752657464,
+        "p75_mm": 7.07896251260641,
+        "p90_mm": 8.211389125965654,
+        "p95_mm": 8.65417768631566
+      },
+      "distance_bands": {
+        "0-5mm": 1833,
+        "5-10mm": 2666,
+        "10-15mm": 0,
+        "15-20mm": 0,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          17.572838573034364,
+          11.337863643624475,
+          10.136915524144216
+        ],
+        "explained_variance_ratio": [
+          0.5957098284204926,
+          0.2669095659878572,
+          0.1373806055916502
+        ],
+        "max_extent_mm": 17.572838573034364,
+        "min_extent_mm": 10.136915524144216,
+        "aspect_ratio": 1.7335488819236171
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          90.15924072265625,
+          92.94342041015625,
+          51.040008544921875
+        ],
+        "max_distance_mm": 9.736872393356435
+      },
+      "aneurysm_location": [
+        80.756103515625,
+        90.80416870117188,
+        49.69416427612305
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "06_MRA2_seg": {
+      "total_vertices": 4500,
+      "total_faces": 8831,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 480.186688938787,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 14.512768930570276,
+        "avg_distance_mm": 7.576617518599241,
+        "median_distance_mm": 7.337770719232875,
+        "std_distance_mm": 3.1603148891431485,
+        "effective_radius_mm": 11.740555423953442
+      },
+      "distance_percentiles": {
+        "p50_mm": 7.337770719232875,
+        "p75_mm": 10.282265746375835,
+        "p90_mm": 11.740555423953442,
+        "p95_mm": 12.645144387408864
+      },
+      "distance_bands": {
+        "0-5mm": 1061,
+        "5-10mm": 2209,
+        "10-15mm": 1230,
+        "15-20mm": 0,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          25.450813007182234,
+          13.990753274460399,
+          12.61581070524494
+        ],
+        "explained_variance_ratio": [
+          0.6278789469855639,
+          0.25215733506675464,
+          0.1199637179476815
+        ],
+        "max_extent_mm": 25.450813007182234,
+        "min_extent_mm": 12.61581070524494,
+        "aspect_ratio": 2.017374356814123
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          93.5240249633789,
+          92.57040405273438,
+          27.43018341064453
+        ],
+        "max_distance_mm": 14.512768930570276
+      },
+      "aneurysm_location": [
+        105.6163101196289,
+        86.64938354492188,
+        22.013669967651367
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "07_MRA1_seg": {
+      "total_vertices": 4500,
+      "total_faces": 8797,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 294.3025786331781,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 8.170529776116009,
+        "avg_distance_mm": 4.671145696935238,
+        "median_distance_mm": 4.762081575826421,
+        "std_distance_mm": 1.5013827735464118,
+        "effective_radius_mm": 6.564222828470215
+      },
+      "distance_percentiles": {
+        "p50_mm": 4.762081575826421,
+        "p75_mm": 5.8193853017734,
+        "p90_mm": 6.564222828470215,
+        "p95_mm": 6.8566659557900556
+      },
+      "distance_bands": {
+        "0-5mm": 2513,
+        "5-10mm": 1987,
+        "10-15mm": 0,
+        "15-20mm": 0,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          14.496193628388088,
+          12.501937969742555,
+          5.9507030987707505
+        ],
+        "explained_variance_ratio": [
+          0.5596879646136242,
+          0.36116991306316454,
+          0.07914212232321119
+        ],
+        "max_extent_mm": 14.496193628388088,
+        "min_extent_mm": 5.9507030987707505,
+        "aspect_ratio": 2.436047201108487
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          65.10179901123047,
+          94.84069061279297,
+          58.45180892944336
+        ],
+        "max_distance_mm": 8.170529776116009
+      },
+      "aneurysm_location": [
+        69.235107421875,
+        95.46305847167969,
+        65.47220611572266
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "07_MRA2_seg": {
+      "total_vertices": 4499,
+      "total_faces": 8894,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 375.0150750622977,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 11.410593797374514,
+        "avg_distance_mm": 5.815249692468843,
+        "median_distance_mm": 5.417913114687348,
+        "std_distance_mm": 2.642262250270372,
+        "effective_radius_mm": 9.745717866899078
+      },
+      "distance_percentiles": {
+        "p50_mm": 5.417913114687348,
+        "p75_mm": 8.012922138992582,
+        "p90_mm": 9.745717866899078,
+        "p95_mm": 10.2814783804629
+      },
+      "distance_bands": {
+        "0-5mm": 2001,
+        "5-10mm": 2155,
+        "10-15mm": 343,
+        "15-20mm": 0,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          21.652898445726855,
+          11.500182138094468,
+          5.840784408379468
+        ],
+        "explained_variance_ratio": [
+          0.738924794769758,
+          0.21715459629374811,
+          0.043920608936493806
+        ],
+        "max_extent_mm": 21.652898445726855,
+        "min_extent_mm": 5.840784408379468,
+        "aspect_ratio": 3.707190153203151
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          60.61206817626953,
+          94.42692565917969,
+          58.13063430786133
+        ],
+        "max_distance_mm": 11.410593797374514
+      },
+      "aneurysm_location": [
+        71.37678527832031,
+        97.8731460571289,
+        59.69462966918945
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "08_MRA1_seg": {
+      "total_vertices": 4084,
+      "total_faces": 7895,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 520.3947180356763,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 15.991834761777158,
+        "avg_distance_mm": 8.717167671755023,
+        "median_distance_mm": 8.329681450067525,
+        "std_distance_mm": 3.8058449476742005,
+        "effective_radius_mm": 14.431964647304914
+      },
+      "distance_percentiles": {
+        "p50_mm": 8.329681450067525,
+        "p75_mm": 11.482761238368397,
+        "p90_mm": 14.431964647304914,
+        "p95_mm": 15.159198476838146
+      },
+      "distance_bands": {
+        "0-5mm": 697,
+        "5-10mm": 1892,
+        "10-15mm": 1248,
+        "15-20mm": 247,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          29.969189885647644,
+          17.31565973486189,
+          11.963467708340172
+        ],
+        "explained_variance_ratio": [
+          0.6373042384236255,
+          0.27873736718072234,
+          0.08395839439565218
+        ],
+        "max_extent_mm": 29.969189885647644,
+        "min_extent_mm": 11.963467708340172,
+        "aspect_ratio": 2.5050587853181585
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          114.64509582519531,
+          85.30360412597656,
+          53.01322555541992
+        ],
+        "max_distance_mm": 15.991834761777158
+      },
+      "aneurysm_location": [
+        103.2348861694336,
+        79.0287857055664,
+        43.730308532714844
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "08_MRA2_seg": {
+      "total_vertices": 4500,
+      "total_faces": 8820,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 341.19682604926777,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 10.748725663562038,
+        "avg_distance_mm": 6.185253419108752,
+        "median_distance_mm": 6.28462909131623,
+        "std_distance_mm": 2.281079974767526,
+        "effective_radius_mm": 9.08933471527249
+      },
+      "distance_percentiles": {
+        "p50_mm": 6.28462909131623,
+        "p75_mm": 8.012540712452417,
+        "p90_mm": 9.08933471527249,
+        "p95_mm": 9.682825522100057
+      },
+      "distance_bands": {
+        "0-5mm": 1347,
+        "5-10mm": 3040,
+        "10-15mm": 113,
+        "15-20mm": 0,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          16.177540672535088,
+          13.777512380087263,
+          11.089180659068091
+        ],
+        "explained_variance_ratio": [
+          0.5393204859762536,
+          0.29190973106107543,
+          0.16876978296267106
+        ],
+        "max_extent_mm": 16.177540672535088,
+        "min_extent_mm": 11.089180659068091,
+        "aspect_ratio": 1.4588580680490608
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          79.59811401367188,
+          81.6603012084961,
+          68.35368347167969
+        ],
+        "max_distance_mm": 10.748725663562038
+      },
+      "aneurysm_location": [
+        80.21221923828125,
+        86.28679656982422,
+        58.671043395996094
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "09_MRA1_seg": {
+      "total_vertices": 4500,
+      "total_faces": 8881,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 536.9377365648564,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 12.986793249051704,
+        "avg_distance_mm": 7.284582564036524,
+        "median_distance_mm": 7.46003743169416,
+        "std_distance_mm": 2.5899079416100825,
+        "effective_radius_mm": 10.641496167979719
+      },
+      "distance_percentiles": {
+        "p50_mm": 7.46003743169416,
+        "p75_mm": 9.22336022556097,
+        "p90_mm": 10.641496167979719,
+        "p95_mm": 11.212890189276996
+      },
+      "distance_bands": {
+        "0-5mm": 908,
+        "5-10mm": 2845,
+        "10-15mm": 747,
+        "15-20mm": 0,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          23.028440015882076,
+          18.30031010259639,
+          10.375115503444409
+        ],
+        "explained_variance_ratio": [
+          0.6280851480379687,
+          0.27284361344365243,
+          0.09907123851837887
+        ],
+        "max_extent_mm": 23.028440015882076,
+        "min_extent_mm": 10.375115503444409,
+        "aspect_ratio": 2.21958396590736
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          99.1417465209961,
+          62.765628814697266,
+          55.65595245361328
+        ],
+        "max_distance_mm": 12.986793249051704
+      },
+      "aneurysm_location": [
+        96.62378692626953,
+        75.4312515258789,
+        57.033878326416016
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "09_MRA2_seg": {
+      "total_vertices": 4499,
+      "total_faces": 8882,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 510.30994301911386,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 12.12096256407283,
+        "avg_distance_mm": 6.708061594659847,
+        "median_distance_mm": 6.629629311507401,
+        "std_distance_mm": 2.371150470386454,
+        "effective_radius_mm": 10.074146193550753
+      },
+      "distance_percentiles": {
+        "p50_mm": 6.629629311507401,
+        "p75_mm": 8.247887108840551,
+        "p90_mm": 10.074146193550753,
+        "p95_mm": 10.969014088494085
+      },
+      "distance_bands": {
+        "0-5mm": 1014,
+        "5-10mm": 3019,
+        "10-15mm": 466,
+        "15-20mm": 0,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          20.80246211410438,
+          16.14720469010461,
+          11.279430307035
+        ],
+        "explained_variance_ratio": [
+          0.576748231912689,
+          0.2963515182567419,
+          0.12690024983056913
+        ],
+        "max_extent_mm": 20.80246211410438,
+        "min_extent_mm": 11.279430307035,
+        "aspect_ratio": 1.8442830486864084
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          102.62198638916016,
+          75.01537322998047,
+          29.832551956176758
+        ],
+        "max_distance_mm": 12.12096256407283
+      },
+      "aneurysm_location": [
+        99.8980712890625,
+        86.7281494140625,
+        31.3520565032959
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "11_MRA1_seg": {
+      "total_vertices": 4500,
+      "total_faces": 8598,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 562.84272663192,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 15.97977262840977,
+        "avg_distance_mm": 9.111198691704201,
+        "median_distance_mm": 9.660061873689408,
+        "std_distance_mm": 3.370765484392356,
+        "effective_radius_mm": 13.156249044799196
+      },
+      "distance_percentiles": {
+        "p50_mm": 9.660061873689408,
+        "p75_mm": 11.535170011363219,
+        "p90_mm": 13.156249044799196,
+        "p95_mm": 14.380616131580497
+      },
+      "distance_bands": {
+        "0-5mm": 670,
+        "5-10mm": 1705,
+        "10-15mm": 2020,
+        "15-20mm": 105,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          23.146150713337732,
+          24.242393954443337,
+          14.335093947709593
+        ],
+        "explained_variance_ratio": [
+          0.5008704971380964,
+          0.3579780341606359,
+          0.1411514687012678
+        ],
+        "max_extent_mm": 24.242393954443337,
+        "min_extent_mm": 14.335093947709593,
+        "aspect_ratio": 1.691122084227198
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          121.59757995605469,
+          91.51287078857422,
+          57.6184196472168
+        ],
+        "max_distance_mm": 15.97977262840977
+      },
+      "aneurysm_location": [
+        116.22419738769531,
+        90.52769470214844,
+        42.6014518737793
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    },
+    "11_MRA2_seg": {
+      "total_vertices": 4500,
+      "total_faces": 8773,
+      "mesh_volume_mm3": null,
+      "mesh_area_mm2": 260.57255267494793,
+      "is_watertight": false,
+      "distances_from_aneurysm": {
+        "min_distance_mm": 0.0,
+        "max_distance_mm": 10.600976374808045,
+        "avg_distance_mm": 6.705639766363647,
+        "median_distance_mm": 7.352930519595981,
+        "std_distance_mm": 2.5336957797623483,
+        "effective_radius_mm": 9.508080230283985
+      },
+      "distance_percentiles": {
+        "p50_mm": 7.352930519595981,
+        "p75_mm": 8.8558425600581,
+        "p90_mm": 9.508080230283985,
+        "p95_mm": 9.820283845471796
+      },
+      "distance_bands": {
+        "0-5mm": 1187,
+        "5-10mm": 3180,
+        "10-15mm": 133,
+        "15-20mm": 0,
+        "20-25mm": 0,
+        "over_25mm": 0
+      },
+      "vessel_shape": {
+        "principal_axis_lengths_mm": [
+          15.663924184413997,
+          10.011507154008374,
+          10.108624955880732
+        ],
+        "explained_variance_ratio": [
+          0.5530030289749001,
+          0.2692474284513556,
+          0.1777495425737444
+        ],
+        "max_extent_mm": 15.663924184413997,
+        "min_extent_mm": 10.011507154008374,
+        "aspect_ratio": 1.5645920183099031
+      },
+      "extreme_points": {
+        "max_distance_vertex_coords": [
+          95.20543670654297,
+          99.93989562988281,
+          46.62967300415039
+        ],
+        "max_distance_mm": 10.600976374808045
+      },
+      "aneurysm_location": [
+        105.1102294921875,
+        101.16517639160156,
+        43.05553436279297
+      ],
+      "extraction_method": "geodesic_small_orthogonal",
+      "extraction_parameters": {
+        "target_vertices": "adaptive",
+        "max_distance_constraint": "16-18mm",
+        "orthogonal_constraints": true,
+        "vessel_direction_analysis": true
+      }
+    }
+  }
+}
