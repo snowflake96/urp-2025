@@ -1,0 +1,28 @@
+# PyAnsys Requirements for Pulsatile CFD Analysis
+
+# Core PyAnsys packages
+ansys-fluent-core>=0.14.0
+ansys-platform-instancemanagement>=1.0.0
+
+# Visualization and analysis
+pyvista>=0.43.0
+vtk>=9.2.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# Mesh processing 
+trimesh>=3.20.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Utilities
+tqdm>=4.65.0
+pathlib2>=2.3.7
+
+# Optional: For advanced visualization
+pyvistaqt>=0.11.0
+jupyter>=1.0.0
+
+# Optional: For mesh quality analysis
+pymeshfix>=0.16.0
+meshio>=5.3.0 

@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "patient_id": "78_MRA1_seg",
+    "analysis_type": "pyfluent_cfd_aneurysm",
+    "vessel_type": "middle_cerebral_artery",
+    "aneurysm_present": true,
+    "creation_date": "2025-01-14",
+    "description": "PyFluent CFD boundary conditions for 78_MRA1_seg aneurysm analysis",
+    "units": {
+      "length": "mm",
+      "velocity": "m/s",
+      "pressure": "Pa",
+      "temperature": "K",
+      "time": "s"
+    }
+  },
+  
+  "blood_properties": {
+    "density_kg_m3": 1060,
+    "dynamic_viscosity_pa_s": 0.0035,
+    "kinematic_viscosity_m2_s": 3.301887e-06,
+    "specific_heat_j_kg_k": 3617,
+    "thermal_conductivity_w_m_k": 0.52,
+    "prandtl_number": 24.4,
+    "description": "Human blood properties at 37°C"
+  },
+  
+  "vessel_geometry": {
+    "estimated_diameter_mm": 3.2,
+    "estimated_length_mm": 25.0,
+    "surface_roughness_mm": 0.001,
+    "aneurysm_neck_diameter_mm": 2.8,
+    "aneurysm_dome_diameter_mm": 4.5,
+    "aspect_ratio": 1.6
+  },
+  
+  "inlet_conditions": {
+    "boundary_type": "velocity_inlet",
+    "mean_velocity_ms": 0.127,
+    "peak_velocity_ms": 0.254,
+    "flow_profile": "pulsatile_womersley",
+    "velocity_direction": [-0.986, -0.065, 0.152],
+    "temperature_k": 310.15,
+    "turbulence_model": "intensity_hydraulic_diameter",
+    "turbulent_intensity": 0.05,
+    "hydraulic_diameter_mm": 3.2,
+    "reynolds_number": 238,
+    "womersley_number": 3.8,
+    "flow_regime": "laminar",
+    "description": "Pulsatile flow typical of middle cerebral artery"
+  },
+  
+  "outlet_conditions": {
+    "boundary_type": "pressure_outlet",
+    "gauge_pressure_pa": 0,
+    "backflow_temperature_k": 310.15,
+    "backflow_turbulent_intensity": 0.05,
+    "description": "Zero gauge pressure outlet with physiological backflow conditions"
+  },
+  
+  "wall_conditions": {
+    "boundary_type": "wall",
+    "thermal_condition": "temperature",
+    "wall_temperature_k": 310.15,
+    "wall_motion": "stationary",
+    "wall_roughness_mm": 0.001,
+    "shear_condition": "no_slip",
+    "description": "Rigid wall assumption with physiological temperature"
+  },
+  
+  "solver_settings": {
+    "solver_type": "pressure_based",
+    "time_formulation": "unsteady",
+    "time_step_size_s": 0.001,
+    "cardiac_cycle_duration_s": 1.0,
+    "heart_rate_bpm": 60,
+    "number_of_cycles": 3,
+    "max_iterations_per_time_step": 20,
+    "time_integration": "second_order_implicit",
+    
+    "pressure_velocity_coupling": "coupled",
+    "momentum_discretization": "bounded_central_differencing",
+    "pressure_discretization": "presto",
+    "energy_discretization": "second_order_upwind",
+    
+    "convergence_criteria": {
+      "continuity": 1e-4,
+      "momentum": 1e-4,
+      "energy": 1e-6,
+      "absolute_criteria": true
+    },
+    
+    "under_relaxation": {
+      "pressure": 0.3,
+      "momentum": 0.7,
+      "energy": 0.9,
+      "turbulent_kinetic_energy": 0.8,
+      "turbulent_dissipation_rate": 0.8
+    }
+  },
+  
+  "pulsatile_waveform": {
+    "description": "Simplified cardiac cycle waveform for MCA",
+    "systolic_duration_fraction": 0.35,
+    "diastolic_duration_fraction": 0.65,
+    "acceleration_time_s": 0.1,
+    "deceleration_time_s": 0.25,
+    "diastolic_decay_time_s": 0.65,
+    
+    "velocity_profile": {
+      "type": "fourier_series",
+      "harmonics": [
+        {"amplitude": 1.0, "phase": 0.0, "frequency": 1},
+        {"amplitude": 0.3, "phase": 1.57, "frequency": 2},
+        {"amplitude": 0.1, "phase": 3.14, "frequency": 3}
+      ]
+    }
+  },
+  
+  "initialization": {
+    "method": "hybrid",
+    "initial_velocity_ms": 0.1,
+    "initial_pressure_pa": 0,
+    "initial_temperature_k": 310.15,
+    "description": "Hybrid initialization for faster convergence"
+  },
+  
+  "output_settings": {
+    "save_frequency": 10,
+    "variables_to_save": [
+      "pressure",
+      "velocity-magnitude", 
+      "wall-shear-stress",
+      "turbulent-kinetic-energy",
+      "strain-rate-magnitude",
+      "q-criterion"
+    ],
+    "surfaces_to_export": ["wall", "inlet", "outlet"],
+    "formats": ["ensight", "csv", "vtk"],
+    "description": "Comprehensive output for aneurysm analysis"
+  },
+  
+  "aneurysm_specific": {
+    "rupture_risk_factors": {
+      "size_ratio": 1.6,
+      "aspect_ratio": 1.6,
+      "flow_angle": 45,
+      "parent_vessel_size_mm": 3.2
+    },
+    "critical_wss_threshold_pa": 0.4,
+    "high_wss_threshold_pa": 1.5,
+    "oscillatory_shear_index_threshold": 0.1,
+    "description": "Aneurysm-specific hemodynamic parameters for risk assessment"
+  },
+  
+  "computational_settings": {
+    "mesh_requirements": {
+      "wall_y_plus": 1,
+      "boundary_layer_layers": 5,
+      "aneurysm_refinement": "high",
+      "max_element_size_mm": 0.2,
+      "min_element_size_mm": 0.05
+    },
+    "parallel_processing": {
+      "processor_count": 32,
+      "decomposition_method": "metis",
+      "load_balancing": true
+    }
+  },
+  
+  "validation_criteria": {
+    "mass_conservation_error": 1e-6,
+    "energy_conservation_error": 1e-5,
+    "pressure_drop_range_pa": [50, 200],
+    "peak_wss_range_pa": [0.5, 3.0],
+    "residence_time_range_s": [0.1, 2.0]
+  }
+} 

@@ -1,0 +1,78 @@
+Auto-Transcript Start Time:  00:51:57, 09 Jun 2025 
+Current Directory: "/home/jiwoo/repo/urp-2025"
+/opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0/bin/fluent -r25.1.0 3d -peth -host -t1 -mpi=intel -path/opt/cvbml/softwares/ansys_inc/v251/fluent -ssh -cx cvbml02.kaist.ac.kr:34373:39709
+Starting /opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0/lnamd64/3d_host/fluent.25.1.0 host -cx cvbml02.kaist.ac.kr:34373:39709 "(list (rpsetvar (QUOTE parallel/function) "fluent 3d -flux -node -r25.1.0 -t1 -peth -mpi=intel -ssh") (rpsetvar (QUOTE parallel/rhost) "") (rpsetvar (QUOTE parallel/ruser) "") (rpsetvar (QUOTE parallel/nprocs_string) "1") (rpsetvar (QUOTE parallel/auto-spawn?) #t) (rpsetvar (QUOTE parallel/trace-level) 0) (rpsetvar (QUOTE parallel/remote-shell) 1) (rpsetvar (QUOTE parallel/path) "/opt/cvbml/softwares/ansys_inc/v251/fluent") (rpsetvar (QUOTE parallel/hostsfile) "") (rpsetvar (QUOTE gpuapp/devices) ""))"
+
+              Welcome to ANSYS Fluent 2025 R1
+
+              Copyright 1987-2025 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Nov 26 2024 15:35:43 EST  Build Id: 10210  
+ 
+Connected License Server List:	1055@143.248.174.50
+
+     --------------------------------------------------------------
+     This is an academic version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "cvbml02.kaist.ac.kr" (unix).
+/opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0/bin/fluent -r25.1.0 3d -flux -node -t1 -peth -mpi=intel -ssh -meshing -mport 143.248.59.33:143.248.59.33:37707:0
+Starting /opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0/multiport/mpi/lnamd64/intel2021/bin/mpirun -f /tmp/fluent-appfile.jiwoo.1541785 -genv I_MPI_OFI_PROVIDER tcp -genv FLUENT_ARCH lnamd64 -genv I_MPI_DEBUG 0 -genv I_MPI_ADJUST_GATHERV 3 -genv I_MPI_ADJUST_ALLREDUCE 2 -genv I_MPI_PLATFORM auto -genv PYTHONHOME /opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0/../../commonfiles/CPython/3_10/linx64/Release/python -genv FLUENT_PROD_DIR /opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0 -genv FLUENT_AFFINITY 0 -genv I_MPI_PIN enable -genv KMP_AFFINITY disabled -n 1 /opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0/lnamd64/3d_node/fluent_mpi.25.1.0 node -mpiw intel -pic ethernet -mport 143.248.59.33:143.248.59.33:37707:0 -meshing
+
+---------------------------------------------------------------------------------------------------
+ID    Hostname             Core  O.S.      PID      Vendor                                        
+---------------------------------------------------------------------------------------------------
+n0    cvbml02.kaist.ac.kr  1/64  Linux-64  1541855  AMD Ryzen ThreadripperPRO PRO 5975WX 32-Cores 
+host  cvbml02.kaist.ac.kr        Linux-64  1541430  AMD Ryzen ThreadripperPRO PRO 5975WX 32-Cores 
+
+MPI Option Selected: intel
+---------------------------------------------------------------------------------------------------
+
+Cleanup script file is /home/jiwoo/repo/urp-2025/cleanup-fluent-cvbml02.kaist.ac.kr-1541430.sh
+
+ +------------------------------------------------------------------+
+ |                    ANSYS Product Improvement                     |
+ |                                                                  |
+ |   ANSYS Product Improvement Program helps improve ANSYS          |
+ |   products. Participating in this program is like filling out a  |
+ |   survey. Without interrupting your work, the software reports   |
+ |   anonymous usage information such as errors, machine and        |
+ |   solver statistics, features used, etc. to ANSYS. We never      |
+ |   use the data to identify or contact you.                       |
+ |   The data does NOT contain:                                     |
+ |   - Any personally identifiable information including names,     |
+ |     IP addresses, file names, part names, etc.                   |
+ |   - Any information about your geometry or design specific       |
+ |     inputs.                                                      |
+ |   You can stop participation at any time. To change your         |
+ |   selection go to Help >> ANSYS Product Improvement Program      |
+ |   in the GUI.                                                    |
+ |   For more information about the ANSYS Privacy Policy, please    |
+ |   check: http://www.ansys.com/privacy                            |
+ |                                                                  |
+ +------------------------------------------------------------------+
+
+Reading journal file /home/jiwoo/repo/urp-2025/analyzing_using_pyfluent/results/78_MRA1_seg_simple_pipeline/meshing_commands.jou...
+
+> 
+; Fluent Meshing Journal for STL to MSH conversion
+; Import STL
+/file/import/stl 
+Error: invalid command
+Error Object: "stl"
+
+Warning: An error or interrupt occurred while reading the journal file.
+Some commands may not have been completed.
+
+
+Meshing> timeout 
+
+non-fatal Error: invalid command [timeout]
+
+
+600 python analyzing_using_pyfluent/script
+

@@ -1,0 +1,9 @@
+Auto-Transcript Start Time:  12:16:21, 09 Jun 2025 
+Current Directory: "/home/jiwoo/repo/urp-2025/analyzing_using_pyfluent"
+/opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0/bin/fluent -r25.1.0 -peth -host -t0 -mpi=intel -path/opt/cvbml/softwares/ansys_inc/v251/fluent -ssh -cx cvbml02.kaist.ac.kr:41625:37115
+
+The versions available in /opt/cvbml/softwares/ansys_inc/v251/fluent/fluent25.1.0/lnamd64 are: 
+2ddp_host  2ddp_node  2d_host  2d_node	3ddp_host  3ddp_node  3d_host  3d_node
+ Error in the fluent (tgrid) process : EOF on stdout.
+
+version> 
