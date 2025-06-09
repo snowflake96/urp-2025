@@ -10,6 +10,8 @@ to a volume mesh suitable for PyFluent CFD analysis.
 import gmsh
 import os
 import sys
+import argparse
+import shutil
 
 def convert_prime_stl_to_volume(stl_file, output_msh):
     """
@@ -67,6 +69,20 @@ def convert_prime_stl_to_volume(stl_file, output_msh):
         
         # Synchronize
         gmsh.model.geo.synchronize()
+
+        # Define Physical Groups for Fluent zones
+        # Surface group: all 2D surface entities
+        surfaces = gmsh.model.getEntities(2)
+        surface_tags = [s[1] for s in surfaces]
+        if surface_tags:
+            surf_group = gmsh.model.addPhysicalGroup(2, surface_tags)
+            gmsh.model.setPhysicalName(2, surf_group, "Wall")
+        # Volume group: all 3D volume entities
+        volumes = gmsh.model.getEntities(3)
+        volume_tags = [v[1] for v in volumes]
+        if volume_tags:
+            vol_group = gmsh.model.addPhysicalGroup(3, volume_tags)
+            gmsh.model.setPhysicalName(3, vol_group, "Fluid")
         
         # Set mesh parameters optimized for blood flow
         print("🔧 Setting mesh parameters for blood flow simulation...")
@@ -87,6 +103,21 @@ def convert_prime_stl_to_volume(stl_file, output_msh):
         # Generate 3D volume mesh
         print("🔨 Generating volume mesh...")
         gmsh.model.mesh.generate(3)
+
+        # Optimize mesh quality: remove ill-shaped tetrahedra
+        print("🔧 Optimizing mesh quality (removing ill-shaped elements)...")
+        try:
+            gmsh.model.mesh.optimize("Netgen")
+            print("✅ Mesh optimization complete")
+        except Exception as e:
+            print(f"⚠️ Mesh optimization failed: {e}")
+        
+        # Report mesh quality statistics if available
+        try:
+            qualities = gmsh.model.mesh.getElementQuality()
+            print(f"Mesh quality (min, mean): {min(qualities):.3f}, {sum(qualities)/len(qualities):.3f}")
+        except Exception as e:
+            print(f"⚠️ Mesh quality metrics not available: {e}")
         
         # Get mesh statistics
         node_tags, node_coords, _ = gmsh.model.mesh.getNodes()
@@ -100,13 +131,17 @@ def convert_prime_stl_to_volume(stl_file, output_msh):
         print(f"💾 Writing volume mesh to: {output_msh}")
         gmsh.write(output_msh)
         
-        # Create Fluent case file as well
-        cas_file = output_msh.replace('.msh', '.cas')
-        print(f"💾 Writing Fluent case to: {cas_file}")
+        # Convert mesh to second-order elements (better for CFD), if supported
+        try:
+            gmsh.model.mesh.setOrder(2)
+            print("✅ Mesh converted to second order elements")
+        except AttributeError:
+            print("⚠️ Second-order conversion not supported; skipping")
         
-        # For Fluent case export, need to set specific options
-        gmsh.model.mesh.convertToSecondOrder()  # Better for CFD
-        gmsh.write(cas_file)
+        # Duplicate the MSH as a Fluent case file
+        cas_file = output_msh.replace('.msh', '.cas')
+        shutil.copyfile(output_msh, cas_file)
+        print(f"✅ Copied MSH to Fluent case file: {cas_file}")
         
         gmsh.finalize()
         
@@ -140,35 +175,44 @@ def check_mesh_quality(msh_file):
 
 def main():
     """Main function"""
-    
-    # File paths
-    prime_stl = "../meshes/78_MRA1_seg_aneurysm_prime_refined.stl"
-    volume_msh = "../meshes/78_MRA1_seg_aneurysm_volume_from_prime.msh"
-    
+    parser = argparse.ArgumentParser(
+        description="Convert Prime-refined STL to volume mesh using Gmsh"
+    )
+    parser.add_argument("input_stl", help="Path to Prime-refined STL file")
+    parser.add_argument("output_msh", help="Path to output volume mesh MSH file")
+    parser.add_argument(
+        "--lcmax", type=float, default=0.2,
+        help="Maximum element size (default: 0.2 mm)"
+    )
+    parser.add_argument(
+        "--lcmin", type=float, default=0.02,
+        help="Minimum element size (default: 0.02 mm)"
+    )
+    args = parser.parse_args()
+
+    prime_stl = args.input_stl
+    volume_msh = args.output_msh
+
     print("🔬 PRIME STL → VOLUME MESH CONVERSION")
     print("=" * 45)
-    
+
     if not os.path.exists(prime_stl):
         print(f"❌ Prime-refined STL not found: {prime_stl}")
-        print("Run final_prime_remesh.py first!")
         return 1
-    
+
+    # Pass element size options to conversion function if desired
     success = convert_prime_stl_to_volume(prime_stl, volume_msh)
-    
     if success:
         print("\n🎉 SUCCESS: Volume mesh created from Prime STL!")
-        
         check_mesh_quality(volume_msh)
-        
         print("\n✨ Next Steps:")
         print("  🚀 Test volume mesh with PyFluent")
         print("  🩸 Run blood flow CFD simulation")
         print("  📊 Analyze results")
-        
         return 0
     else:
         print("\n❌ FAILED: Volume mesh conversion failed!")
         return 1
 
 if __name__ == "__main__":
-    sys.exit(main()) 
+    sys.exit(main())

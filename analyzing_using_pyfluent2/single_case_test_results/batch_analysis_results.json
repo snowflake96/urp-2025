@@ -1,0 +1,24 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-06-09T15:29:07.770393",
+    "total_cases": 1,
+    "successful_cases": 0,
+    "failed_cases": 1,
+    "data_directory": "/home/jiwoo/urp/data/uan/clean_flat_vessels",
+    "output_directory": "single_case_test_results",
+    "n_cores": 8
+  },
+  "results": [
+    {
+      "case_name": "38_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/38_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/38_MRA1_seg_boundary_conditions.json",
+      "start_time": "2025-06-09T15:29:06.380126",
+      "success": false,
+      "error_message": "CFD simulation failed",
+      "runtime_seconds": 1.3814995288848877,
+      "output_files": [],
+      "end_time": "2025-06-09T15:29:07.761625"
+    }
+  ]
+}

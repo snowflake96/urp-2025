@@ -10,12 +10,24 @@ STL → Ansys Prime Refinement → Gmsh Volume Mesh → PyFluent CFD
 import ansys.fluent.core as pyfluent
 import os
 import sys
+import argparse
 
-def test_prime_volume_mesh():
+def parse_args():
+    parser = argparse.ArgumentParser(
+        description="Test the Prime-derived volume mesh with PyFluent"
+    )
+    parser.add_argument(
+        "mesh_file",
+        help="Path to the volume mesh .msh file to test"
+    )
+    parser.add_argument(
+        "--output-prefix", "-o",
+        help="Output file prefix (no extension). If provided, saves Fluent case and data files with this prefix."
+    )
+    return parser.parse_args()
+
+def test_prime_volume_mesh(mesh_file, output_prefix=None):
     """Test the Prime-derived volume mesh with PyFluent"""
-    
-    # File path
-    mesh_file = "../meshes/78_MRA1_seg_aneurysm_volume_from_prime.msh"
     
     if not os.path.exists(mesh_file):
         print(f"❌ Volume mesh not found: {mesh_file}")
@@ -32,6 +44,11 @@ def test_prime_volume_mesh():
     try:
         # Launch PyFluent
         print("🚀 Launching PyFluent solver...")
+        # Determine Fluent installation root and set environment for PyFluent
+        fluent_root = os.environ.get("AWP_ROOT251") or os.environ.get("AWP_ROOT242") or "/opt/cvbml/softwares/ansys_inc/v251"
+        print(f"🔧 Using Fluent root: {fluent_root}")
+        os.environ["AWP_ROOT251"] = fluent_root
+        # Launch PyFluent solver
         session = pyfluent.launch_fluent(
             precision='double',
             processor_count=2,
@@ -46,12 +63,13 @@ def test_prime_volume_mesh():
         print(f"📥 Importing volume mesh...")
         abs_mesh_file = os.path.abspath(mesh_file)
         
-        # Use new API
-        session.settings.file.read_mesh(file_name=abs_mesh_file)
+        # Import volume mesh using the file I/O API
+        # session.settings.file.read_mesh(file_name=abs_mesh_file)
+        session.file.read_mesh(file_name=abs_mesh_file)
         
         print("✅ Volume mesh imported successfully!")
         
-        # Check mesh
+        # Check mesh quality...
         print("🔍 Checking mesh quality...")
         try:
             mesh_check = session.tui.mesh.check()
@@ -116,6 +134,16 @@ def test_prime_volume_mesh():
         print("  ✅ Physics setup (blood flow)")
         print("  ✅ Ready for CFD simulation!")
         
+        # Save case and data files if requested
+        if output_prefix:
+            abs_prefix = os.path.abspath(output_prefix)
+            case_file = abs_prefix + ".cas"
+            data_file = abs_prefix + ".cas.h5"
+            print(f"💾 Saving Fluent case to: {case_file}")
+            session.file.write_case(file_name=case_file)
+            print(f"💾 Saving Fluent data to: {data_file}")
+            session.file.write_data(file_name=data_file)
+        
         # Clean up
         session.exit()
         return True
@@ -128,12 +156,16 @@ def test_prime_volume_mesh():
 
 def main():
     """Main function"""
-    
+    args = parse_args()
+    mesh_file = args.mesh_file
+    output_prefix = args.output_prefix
+
     print("🔬 COMPLETE WORKFLOW TEST")
+    print(f"Using mesh file: {mesh_file}")
     print("STL → Prime → Gmsh → PyFluent")
     print("=" * 40)
-    
-    success = test_prime_volume_mesh()
+
+    success = test_prime_volume_mesh(mesh_file, output_prefix)
     
     if success:
         print("\n🎉 ALL TESTS PASSED!")
@@ -151,4 +183,4 @@ def main():
         return 1
 
 if __name__ == "__main__":
-    sys.exit(main()) 
+    sys.exit(main())

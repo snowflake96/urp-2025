@@ -1,0 +1,2826 @@
+{
+  "conversion_info": {
+    "total_files": 88,
+    "successful": 88,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "results": [
+    {
+      "case_name": "38_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/38_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/38_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/38_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11258,
+        "n_cells": 22516,
+        "bounds": [
+          78.42793273925781,
+          96.1140365600586,
+          64.94217681884766,
+          86.16766357421875,
+          20.48678970336914,
+          55.045318603515625
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.5685849828924467,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "44_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/44_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/44_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/44_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10678,
+        "n_cells": 21368,
+        "bounds": [
+          104.09795379638672,
+          131.6724853515625,
+          72.22553253173828,
+          104.10385131835938,
+          18.620546340942383,
+          61.12035369873047
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.10712034969662129
+        ],
+        "wss_range": [
+          0.43919177309022667,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "09_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/09_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/09_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/09_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 9641,
+        "n_cells": 19302,
+        "bounds": [
+          81.0091552734375,
+          112.97979736328125,
+          55.43239974975586,
+          86.780029296875,
+          50.37238311767578,
+          71.66436767578125
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.24722042847916387
+        ],
+        "wss_range": [
+          0.14327630264893126,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "08_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/08_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/08_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/08_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10887,
+        "n_cells": 21786,
+        "bounds": [
+          82.77517700195312,
+          122.81018829345703,
+          60.054195404052734,
+          90.61451721191406,
+          37.13362503051758,
+          72.01408386230469
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.17025212358178968
+        ],
+        "wss_range": [
+          0.03631655059182576,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "23_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/23_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/23_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/23_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11338,
+        "n_cells": 22672,
+        "bounds": [
+          89.16242218017578,
+          99.63684844970703,
+          78.99333190917969,
+          97.81011199951172,
+          29.353200912475586,
+          48.851234436035156
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.12743712912034963
+        ],
+        "wss_range": [
+          0.42299599776218044,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "78_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/78_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/78_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/78_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10724,
+        "n_cells": 21444,
+        "bounds": [
+          103.03455352783203,
+          128.01287841796875,
+          58.277462005615234,
+          83.25787353515625,
+          15.203627586364746,
+          51.48176574707031
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.12678760925828933
+        ],
+        "wss_range": [
+          0.11804639416777396,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "56_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/56_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/56_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/56_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 9387,
+        "n_cells": 18770,
+        "bounds": [
+          83.68315124511719,
+          99.33623504638672,
+          66.44198608398438,
+          91.67830657958984,
+          28.490497589111328,
+          62.292537689208984
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.19709006762852269
+        ],
+        "wss_range": [
+          0.2330884032002645,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "27_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/27_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/27_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/27_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11002,
+        "n_cells": 22016,
+        "bounds": [
+          104.8442153930664,
+          129.43846130371094,
+          74.48289489746094,
+          99.49756622314453,
+          15.335182189941406,
+          36.77166748046875
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.3642741194654196
+        ],
+        "wss_range": [
+          0.4475994958058515,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "70_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/70_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/70_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/70_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11264,
+        "n_cells": 22524,
+        "bounds": [
+          85.99055480957031,
+          96.7697982788086,
+          71.47526550292969,
+          89.37721252441406,
+          11.079286575317383,
+          31.956750869750977
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.11814059578221257
+        ],
+        "wss_range": [
+          0.19775022362056055,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "68_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/68_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/68_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/68_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10755,
+        "n_cells": 21506,
+        "bounds": [
+          91.48589324951172,
+          119.49031066894531,
+          62.34553146362305,
+          100.60033416748047,
+          14.96144962310791,
+          47.343265533447266
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.19258126360938518
+        ],
+        "wss_range": [
+          0.16347973058513807,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "42_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/42_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/42_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/42_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10992,
+        "n_cells": 21980,
+        "bounds": [
+          57.90902328491211,
+          73.77388000488281,
+          69.45093536376953,
+          91.2229232788086,
+          19.703460693359375,
+          59.65033721923828
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.10490614209207678
+        ],
+        "wss_range": [
+          0.05800838489865971,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "71_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/71_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/71_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/71_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10909,
+        "n_cells": 21814,
+        "bounds": [
+          104.13872528076172,
+          131.7379150390625,
+          68.56240844726562,
+          94.89266204833984,
+          22.996023178100586,
+          62.316261291503906
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.10469856699562706
+        ],
+        "wss_range": [
+          0.10841168205756381,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "14_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/14_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/14_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/14_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11321,
+        "n_cells": 22670,
+        "bounds": [
+          81.37599182128906,
+          120.42066192626953,
+          54.461910247802734,
+          80.16680145263672,
+          43.87452697753906,
+          80.26140594482422
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.16612970132246943
+        ],
+        "wss_range": [
+          0.13203062243818692,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "67_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/67_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/67_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/67_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10801,
+        "n_cells": 21602,
+        "bounds": [
+          67.73085021972656,
+          97.9410629272461,
+          67.1607437133789,
+          90.55999755859375,
+          25.67534637451172,
+          65.89505767822266
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.11525168145786935
+        ],
+        "wss_range": [
+          0.18694733547625952,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "07_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/07_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/07_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/07_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10915,
+        "n_cells": 21842,
+        "bounds": [
+          56.68684768676758,
+          81.33685302734375,
+          85.95866394042969,
+          101.29025268554688,
+          55.65740203857422,
+          72.82330322265625
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.3149564716546839
+        ],
+        "wss_range": [
+          0.06782594550962534,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "38_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/38_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/38_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/38_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11593,
+        "n_cells": 23182,
+        "bounds": [
+          65.6639404296875,
+          80.19341278076172,
+          58.533973693847656,
+          78.93954467773438,
+          16.462491989135742,
+          43.023075103759766
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.10047623446494429
+        ],
+        "wss_range": [
+          0.048625087726156084,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "78_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/78_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/78_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/78_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10804,
+        "n_cells": 21604,
+        "bounds": [
+          109.11930084228516,
+          137.22312927246094,
+          63.87847137451172,
+          103.79875183105469,
+          0.0,
+          32.46158981323242
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.6985622078681087,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "62_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/62_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/62_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/62_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10848,
+        "n_cells": 21700,
+        "bounds": [
+          70.92908477783203,
+          117.02342987060547,
+          78.88582611083984,
+          107.0219955444336,
+          37.8985481262207,
+          79.78646087646484
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.11229831466751278
+        ],
+        "wss_range": [
+          0.14086540883944443,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "16_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/16_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/16_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/16_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10603,
+        "n_cells": 21246,
+        "bounds": [
+          55.10594940185547,
+          85.44699096679688,
+          71.60631561279297,
+          98.62950134277344,
+          48.68137741088867,
+          76.62593078613281
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          1.1338295011287962
+        ],
+        "wss_range": [
+          1.735867883023038,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "76_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/76_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/76_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/76_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10927,
+        "n_cells": 21862,
+        "bounds": [
+          98.38206481933594,
+          112.9124984741211,
+          70.96855163574219,
+          98.92005157470703,
+          35.35832977294922,
+          61.03689193725586
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          2.2430229821817114
+        ],
+        "wss_range": [
+          0.41838785467861395,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "56_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/56_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/56_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/56_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 12603,
+        "n_cells": 25206,
+        "bounds": [
+          89.43799591064453,
+          98.82131958007812,
+          73.57138061523438,
+          91.38069152832031,
+          21.765729904174805,
+          39.241004943847656
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1531505728040783
+        ],
+        "wss_range": [
+          0.24912406476172574,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "37_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/37_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/37_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/37_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10461,
+        "n_cells": 20926,
+        "bounds": [
+          95.67391204833984,
+          127.5142593383789,
+          76.01217651367188,
+          109.44938659667969,
+          28.393108367919922,
+          52.448246002197266
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.36258130196525884
+        ],
+        "wss_range": [
+          0.1521635964077671,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "83_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/83_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/83_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/83_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 7961,
+        "n_cells": 15930,
+        "bounds": [
+          80.39024353027344,
+          95.63797760009766,
+          57.784305572509766,
+          93.93449401855469,
+          0.8858090043067932,
+          26.69444465637207
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          1.5860064989059333
+        ],
+        "wss_range": [
+          0.3386339315478698,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "53_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/53_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/53_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/53_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10784,
+        "n_cells": 21580,
+        "bounds": [
+          62.09103012084961,
+          93.49364471435547,
+          72.0029525756836,
+          114.64423370361328,
+          23.027576446533203,
+          61.03862380981445
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.2868985862676561
+        ],
+        "wss_range": [
+          0.4344900880450489,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "37_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/37_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/37_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/37_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11074,
+        "n_cells": 22152,
+        "bounds": [
+          99.46760559082031,
+          135.15347290039062,
+          69.16926574707031,
+          101.89099884033203,
+          4.297945499420166,
+          25.561691284179688
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.40519328170757835
+        ],
+        "wss_range": [
+          0.2080842583276416,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "62_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/62_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/62_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/62_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10688,
+        "n_cells": 21376,
+        "bounds": [
+          103.94949340820312,
+          127.53053283691406,
+          68.62725067138672,
+          100.34886932373047,
+          0.0,
+          33.92699432373047
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.35038559634812405
+        ],
+        "wss_range": [
+          0.47586283411924335,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "77_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/77_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/77_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/77_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10659,
+        "n_cells": 21322,
+        "bounds": [
+          100.5033187866211,
+          125.75102996826172,
+          64.9650650024414,
+          88.0936050415039,
+          20.66090202331543,
+          55.36246871948242
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.13211740239700648
+        ],
+        "wss_range": [
+          0.19303721702597684,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "31_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/31_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/31_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/31_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10813,
+        "n_cells": 21622,
+        "bounds": [
+          57.435585021972656,
+          84.97193908691406,
+          97.7423095703125,
+          128.09271240234375,
+          8.26182746887207,
+          58.582645416259766
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.5386356698253152,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "55_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/55_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/55_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/55_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11279,
+        "n_cells": 22562,
+        "bounds": [
+          96.32550048828125,
+          110.30435180664062,
+          80.1916275024414,
+          99.5064926147461,
+          51.96999740600586,
+          72.8874282836914
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.10632750541448989
+        ],
+        "wss_range": [
+          0.3801041870711224,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "60_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/60_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/60_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/60_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10890,
+        "n_cells": 21780,
+        "bounds": [
+          84.57965087890625,
+          100.88075256347656,
+          78.63626098632812,
+          98.46410369873047,
+          24.23380470275879,
+          59.756710052490234
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.17948468824971167,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "53_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/53_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/53_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/53_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10826,
+        "n_cells": 21660,
+        "bounds": [
+          78.36572265625,
+          101.96216583251953,
+          66.73636627197266,
+          90.10035705566406,
+          15.338417053222656,
+          52.64304733276367
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.6072097562525978,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "69_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/69_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/69_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/69_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10771,
+        "n_cells": 21562,
+        "bounds": [
+          90.16250610351562,
+          121.18008422851562,
+          69.48788452148438,
+          112.17240905761719,
+          22.80872344970703,
+          61.9072380065918
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.11286260432965088
+        ],
+        "wss_range": [
+          0.20884174751926754,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "17_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/17_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/17_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/17_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10791,
+        "n_cells": 21594,
+        "bounds": [
+          103.64854431152344,
+          134.5640106201172,
+          63.645355224609375,
+          100.98027801513672,
+          8.905051231384277,
+          33.799400329589844
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.2894986305336048
+        ],
+        "wss_range": [
+          0.7773252789786239,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "42_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/42_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/42_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/42_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10737,
+        "n_cells": 21478,
+        "bounds": [
+          65.19803619384766,
+          100.79263305664062,
+          75.42512512207031,
+          98.53800964355469,
+          14.972881317138672,
+          59.27951431274414
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.11384019994690851
+        ],
+        "wss_range": [
+          0.8103043953529072,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "35_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/35_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/35_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/35_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10828,
+        "n_cells": 21692,
+        "bounds": [
+          65.96243286132812,
+          114.97611236572266,
+          65.54132080078125,
+          105.3312759399414,
+          19.43480110168457,
+          47.79231262207031
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.3334597061452303
+        ],
+        "wss_range": [
+          0.13605440670788432,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "06_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/06_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/06_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/06_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10715,
+        "n_cells": 21426,
+        "bounds": [
+          64.69721221923828,
+          99.01595306396484,
+          77.48448181152344,
+          95.9307861328125,
+          46.58048629760742,
+          71.63079833984375
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.43616338277472233
+        ],
+        "wss_range": [
+          0.08453286922810344,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "11_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/11_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/11_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/11_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11083,
+        "n_cells": 22174,
+        "bounds": [
+          99.79546356201172,
+          132.33306884765625,
+          71.78417205810547,
+          98.09066772460938,
+          32.340572357177734,
+          65.2137680053711
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.19421109688505767
+        ],
+        "wss_range": [
+          0.493277439456025,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "79_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/79_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/79_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/79_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10944,
+        "n_cells": 21884,
+        "bounds": [
+          97.94986724853516,
+          110.7180404663086,
+          87.52549743652344,
+          109.9179916381836,
+          51.27517318725586,
+          75.47496795654297
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.8734676097417715
+        ],
+        "wss_range": [
+          0.4568940071577438,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "79_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/79_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/79_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/79_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10893,
+        "n_cells": 21794,
+        "bounds": [
+          102.48239135742188,
+          125.5212173461914,
+          61.2664794921875,
+          96.04020690917969,
+          21.54169464111328,
+          61.06815719604492
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.24856116907614315
+        ],
+        "wss_range": [
+          0.41101095277270794,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "40_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/40_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/40_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/40_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11223,
+        "n_cells": 22442,
+        "bounds": [
+          84.55286407470703,
+          96.38375091552734,
+          74.25030517578125,
+          98.0111083984375,
+          20.521913528442383,
+          51.856040954589844
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.26516144457425384,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "84_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/84_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/84_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/84_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10689,
+        "n_cells": 21398,
+        "bounds": [
+          77.56236267089844,
+          98.20507049560547,
+          65.67257690429688,
+          93.25607299804688,
+          3.0116934776306152,
+          33.49530792236328
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.14731974693809255
+        ],
+        "wss_range": [
+          0.6742804510349892,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "81_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/81_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/81_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/81_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11179,
+        "n_cells": 22382,
+        "bounds": [
+          86.99454498291016,
+          103.07998657226562,
+          75.15790557861328,
+          96.38902282714844,
+          24.7396297454834,
+          58.274539947509766
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.0879331279944283,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "54_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/54_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/54_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/54_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11067,
+        "n_cells": 22130,
+        "bounds": [
+          78.46590423583984,
+          93.05960845947266,
+          67.66401672363281,
+          91.96662902832031,
+          5.780116558074951,
+          29.07512855529785
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          1.130645926592635
+        ],
+        "wss_range": [
+          0.5253489986705699,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "57_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/57_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/57_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/57_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10809,
+        "n_cells": 21630,
+        "bounds": [
+          71.63134765625,
+          98.87831115722656,
+          63.994956970214844,
+          98.10210418701172,
+          17.918699264526367,
+          52.942047119140625
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.14693535362814572
+        ],
+        "wss_range": [
+          0.2069347214877127,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "69_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/69_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/69_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/69_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11125,
+        "n_cells": 22246,
+        "bounds": [
+          83.74836730957031,
+          96.2736587524414,
+          77.19329071044922,
+          97.4386215209961,
+          24.643329620361328,
+          54.63065719604492
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.40139240771879037,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "27_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/27_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/27_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/27_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11105,
+        "n_cells": 22214,
+        "bounds": [
+          98.336669921875,
+          126.98356628417969,
+          69.705078125,
+          97.90531921386719,
+          37.220218658447266,
+          59.956512451171875
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.324362835691626
+        ],
+        "wss_range": [
+          0.22852539189256976,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "81_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/81_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/81_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/81_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 8927,
+        "n_cells": 17870,
+        "bounds": [
+          50.9427604675293,
+          86.73819732666016,
+          78.90486907958984,
+          115.33763122558594,
+          41.538177490234375,
+          75.80146789550781
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.17187739067091715,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "74_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/74_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/74_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/74_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11359,
+        "n_cells": 22718,
+        "bounds": [
+          80.85472106933594,
+          104.5381851196289,
+          86.93293762207031,
+          104.95050811767578,
+          61.551185607910156,
+          86.18312072753906
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.18846656251171431
+        ],
+        "wss_range": [
+          0.43395186736877056,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "07_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/07_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/07_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/07_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 6851,
+        "n_cells": 13710,
+        "bounds": [
+          64.8973617553711,
+          88.27165985107422,
+          94.13723754882812,
+          107.11780548095703,
+          45.532142639160156,
+          62.860633850097656
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.11595068853867868
+        ],
+        "wss_range": [
+          0.27433428846873353,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "76_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/76_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/76_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/76_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11418,
+        "n_cells": 22836,
+        "bounds": [
+          87.03717041015625,
+          99.80176544189453,
+          73.45027160644531,
+          93.01689910888672,
+          38.25898361206055,
+          63.1002082824707
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.38899362104137886,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "40_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/40_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/40_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/40_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10989,
+        "n_cells": 21978,
+        "bounds": [
+          108.24483489990234,
+          125.87733459472656,
+          66.55549621582031,
+          99.00310516357422,
+          13.149163246154785,
+          49.359622955322266
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.29747242677274,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "49_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/49_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/49_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/49_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10807,
+        "n_cells": 21642,
+        "bounds": [
+          47.71562194824219,
+          82.3938980102539,
+          91.78083038330078,
+          119.71894836425781,
+          25.26332664489746,
+          55.19535446166992
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.14414176373810111
+        ],
+        "wss_range": [
+          1.0215240720426997,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "65_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/65_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/65_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/65_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10891,
+        "n_cells": 21790,
+        "bounds": [
+          105.79672241210938,
+          127.53639221191406,
+          66.26695251464844,
+          101.36002349853516,
+          7.220938205718994,
+          31.12928009033203
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.15818960321321207
+        ],
+        "wss_range": [
+          0.7884988336401644,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "14_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/14_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/14_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/14_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10796,
+        "n_cells": 21588,
+        "bounds": [
+          83.33624267578125,
+          105.8875503540039,
+          85.74906158447266,
+          104.4072265625,
+          64.72771453857422,
+          86.68854522705078
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.43679285505998877
+        ],
+        "wss_range": [
+          0.6218863228196816,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "80_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/80_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/80_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/80_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 8065,
+        "n_cells": 16130,
+        "bounds": [
+          72.81343078613281,
+          125.07158660888672,
+          81.14928436279297,
+          121.31282806396484,
+          52.52978515625,
+          83.56596374511719
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.44391175006163236
+        ],
+        "wss_range": [
+          1.285028223310343,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "68_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/68_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/68_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/68_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11296,
+        "n_cells": 22600,
+        "bounds": [
+          83.4482421875,
+          99.04298400878906,
+          68.65258026123047,
+          91.33879852294922,
+          33.599002838134766,
+          58.48580551147461
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          1.3560928086871942
+        ],
+        "wss_range": [
+          0.2953166023591918,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "11_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/11_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/11_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/11_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 9873,
+        "n_cells": 19746,
+        "bounds": [
+          92.86720275878906,
+          114.7403335571289,
+          92.04692840576172,
+          104.19780731201172,
+          42.02034378051758,
+          63.38930892944336
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.3071668934719634,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "06_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/06_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/06_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/06_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11229,
+        "n_cells": 22490,
+        "bounds": [
+          86.88922119140625,
+          126.8293685913086,
+          77.4068603515625,
+          102.63533782958984,
+          17.004751205444336,
+          42.5506591796875
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1673881213311377
+        ],
+        "wss_range": [
+          1.061199787599096,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "74_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/74_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/74_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/74_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10654,
+        "n_cells": 21308,
+        "bounds": [
+          54.9375114440918,
+          111.41172790527344,
+          57.7321662902832,
+          103.50421142578125,
+          47.801700592041016,
+          84.3970718383789
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.2289334205339038
+        ],
+        "wss_range": [
+          0.07688195541094683,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "26_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/26_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/26_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/26_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10864,
+        "n_cells": 21728,
+        "bounds": [
+          81.27085876464844,
+          119.47795867919922,
+          53.64510726928711,
+          83.6156234741211,
+          53.2963752746582,
+          95.40003204345703
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.3463798537382301
+        ],
+        "wss_range": [
+          0.28607214169413175,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "71_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/71_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/71_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/71_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 12386,
+        "n_cells": 24768,
+        "bounds": [
+          110.75367736816406,
+          123.49705505371094,
+          79.09191131591797,
+          92.81465148925781,
+          9.351762771606445,
+          29.246213912963867
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.16585347589866248
+        ],
+        "wss_range": [
+          0.28982487438476917,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "57_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/57_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/57_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/57_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11417,
+        "n_cells": 22834,
+        "bounds": [
+          75.065673828125,
+          86.92835998535156,
+          84.79719543457031,
+          107.63250732421875,
+          32.24397277832031,
+          54.58686065673828
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1027570991398496
+        ],
+        "wss_range": [
+          0.17450587952282165,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "60_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/60_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/60_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/60_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10871,
+        "n_cells": 21742,
+        "bounds": [
+          101.76962280273438,
+          131.872802734375,
+          67.56700897216797,
+          92.57331848144531,
+          19.3896427154541,
+          61.69700622558594
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1175316185041319
+        ],
+        "wss_range": [
+          0.30222569698909013,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "55_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/55_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/55_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/55_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10766,
+        "n_cells": 21536,
+        "bounds": [
+          100.3702621459961,
+          131.5380401611328,
+          63.52057647705078,
+          87.98255157470703,
+          20.58267593383789,
+          57.46780776977539
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.11744134916334233
+        ],
+        "wss_range": [
+          0.5468456988441492,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "80_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/80_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/80_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/80_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10676,
+        "n_cells": 21356,
+        "bounds": [
+          107.10481262207031,
+          135.1914520263672,
+          70.70582580566406,
+          110.484375,
+          9.646859169006348,
+          38.72896194458008
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.3076524088084726
+        ],
+        "wss_range": [
+          0.3805389524458582,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "16_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/16_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/16_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/16_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10568,
+        "n_cells": 21184,
+        "bounds": [
+          44.9738883972168,
+          80.2657470703125,
+          77.07078552246094,
+          118.0047607421875,
+          46.87197494506836,
+          77.04979705810547
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.8015379880725672
+        ],
+        "wss_range": [
+          1.3550014424207537,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "17_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/17_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/17_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/17_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10794,
+        "n_cells": 21592,
+        "bounds": [
+          107.7837905883789,
+          138.87242126464844,
+          72.2306900024414,
+          109.05305480957031,
+          12.514128684997559,
+          37.79658889770508
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.32882589912699
+        ],
+        "wss_range": [
+          0.7699070591704968,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "65_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/65_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/65_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/65_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10817,
+        "n_cells": 21630,
+        "bounds": [
+          104.5031509399414,
+          128.0646209716797,
+          69.95028686523438,
+          95.12024688720703,
+          26.636756896972656,
+          61.090084075927734
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.2244401979213142
+        ],
+        "wss_range": [
+          0.9372168237862853,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "49_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/49_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/49_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/49_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10626,
+        "n_cells": 21288,
+        "bounds": [
+          53.59537124633789,
+          83.81409454345703,
+          70.84072875976562,
+          94.76426696777344,
+          44.54084014892578,
+          74.31989288330078
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.36724337416011144
+        ],
+        "wss_range": [
+          0.9128781988363449,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "23_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/23_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/23_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/23_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10698,
+        "n_cells": 21392,
+        "bounds": [
+          56.60087203979492,
+          73.3145523071289,
+          76.3438491821289,
+          97.58255004882812,
+          23.464418411254883,
+          50.87101364135742
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.18211240288103564
+        ],
+        "wss_range": [
+          0.9017642583830254,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "54_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/54_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/54_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/54_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10855,
+        "n_cells": 21706,
+        "bounds": [
+          68.10037994384766,
+          96.31861114501953,
+          70.60435485839844,
+          95.52627563476562,
+          18.51267433166504,
+          56.89546203613281
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.13431456169942185,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "84_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/84_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/84_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/84_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10932,
+        "n_cells": 21872,
+        "bounds": [
+          57.14860534667969,
+          72.95059204101562,
+          66.9452133178711,
+          86.73877716064453,
+          36.45947265625,
+          60.86640167236328
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.14167468670813546
+        ],
+        "wss_range": [
+          0.4067078300363487,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "08_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/08_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/08_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/08_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10877,
+        "n_cells": 21758,
+        "bounds": [
+          64.78280639648438,
+          95.4593276977539,
+          70.27192687988281,
+          91.99490356445312,
+          56.77322006225586,
+          81.13912963867188
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.23688241469409932
+        ],
+        "wss_range": [
+          0.09487140455904146,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "63_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/63_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/63_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/63_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10782,
+        "n_cells": 21576,
+        "bounds": [
+          78.02434539794922,
+          98.78079223632812,
+          68.34727478027344,
+          88.68092346191406,
+          22.617528915405273,
+          49.37997055053711
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.28422630595000514
+        ],
+        "wss_range": [
+          0.5798726250422819,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "70_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/70_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/70_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/70_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10878,
+        "n_cells": 21756,
+        "bounds": [
+          59.58500289916992,
+          75.69931030273438,
+          76.39246368408203,
+          94.67221069335938,
+          30.602680206298828,
+          60.83927917480469
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.10374853221617336
+        ],
+        "wss_range": [
+          0.5051664863774429,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "59_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/59_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/59_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/59_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10902,
+        "n_cells": 21808,
+        "bounds": [
+          97.96994018554688,
+          128.16014099121094,
+          52.59272766113281,
+          82.87091827392578,
+          22.99627685546875,
+          67.83492279052734
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1248864581502824
+        ],
+        "wss_range": [
+          0.0071304483550826345,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "35_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/35_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/35_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/35_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11047,
+        "n_cells": 22102,
+        "bounds": [
+          80.21508026123047,
+          121.19747924804688,
+          53.28229522705078,
+          84.62728881835938,
+          45.34068298339844,
+          74.83282470703125
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.3574965923307852
+        ],
+        "wss_range": [
+          0.23500535747906334,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "83_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/83_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/83_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/83_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10760,
+        "n_cells": 21516,
+        "bounds": [
+          70.03034210205078,
+          98.9354019165039,
+          57.527488708496094,
+          87.3300552368164,
+          26.080156326293945,
+          56.8689079284668
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.11900116932550193
+        ],
+        "wss_range": [
+          0.07446501427783211,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "18_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/18_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/18_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/18_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11100,
+        "n_cells": 22208,
+        "bounds": [
+          61.37636947631836,
+          78.48359680175781,
+          78.59935760498047,
+          98.1858139038086,
+          34.29851150512695,
+          56.92814636230469
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.12169888914810005
+        ],
+        "wss_range": [
+          0.2693617540834017,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "31_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/31_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/31_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/31_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11387,
+        "n_cells": 22774,
+        "bounds": [
+          75.2073974609375,
+          95.41134643554688,
+          73.35350799560547,
+          97.33894348144531,
+          23.929227828979492,
+          54.97235870361328
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1472293849466356
+        ],
+        "wss_range": [
+          0.4376644794083735,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "26_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/26_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/26_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/26_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 7207,
+        "n_cells": 14422,
+        "bounds": [
+          98.45684051513672,
+          129.30746459960938,
+          67.25064086914062,
+          100.94181823730469,
+          36.222312927246094,
+          78.5999984741211
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.2973625177458084
+        ],
+        "wss_range": [
+          0.6921816231846505,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "63_MRA1_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/63_MRA1_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/63_MRA1_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/63_MRA1_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10834,
+        "n_cells": 21688,
+        "bounds": [
+          72.58331298828125,
+          104.62816619873047,
+          70.32881164550781,
+          92.02789306640625,
+          23.233718872070312,
+          63.05195617675781
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1070692846540592
+        ],
+        "wss_range": [
+          0.32087687315989344,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "09_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/09_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/09_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/09_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11049,
+        "n_cells": 22114,
+        "bounds": [
+          84.45184326171875,
+          122.3526382446289,
+          66.96786499023438,
+          96.93196105957031,
+          23.22602081298828,
+          43.19178009033203
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.2608999885998168
+        ],
+        "wss_range": [
+          0.2063542895026528,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "59_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/59_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/59_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/59_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10505,
+        "n_cells": 21006,
+        "bounds": [
+          106.20347595214844,
+          133.380126953125,
+          58.188011169433594,
+          97.51655578613281,
+          0.0,
+          28.88265037536621
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.412155103790598
+        ],
+        "wss_range": [
+          0.5099823998655147,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "18_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/18_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/18_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/18_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10793,
+        "n_cells": 21614,
+        "bounds": [
+          63.881107330322266,
+          94.95641326904297,
+          79.53836059570312,
+          112.4599838256836,
+          25.93265724182129,
+          57.69896697998047
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.21508817236961417
+        ],
+        "wss_range": [
+          0.17350952632323013,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "77_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/77_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/77_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/77_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10643,
+        "n_cells": 21302,
+        "bounds": [
+          105.28262329101562,
+          125.83197784423828,
+          62.536930084228516,
+          95.75315856933594,
+          0.0,
+          29.768827438354492
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1738876238696463
+        ],
+        "wss_range": [
+          0.11023150360404423,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "44_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/44_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/44_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/44_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 10595,
+        "n_cells": 21202,
+        "bounds": [
+          109.45671081542969,
+          133.3227996826172,
+          65.5341567993164,
+          103.8089599609375,
+          0.0,
+          31.819690704345703
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          1.1881115951904375
+        ],
+        "wss_range": [
+          0.6615994439135038,
+          5.0
+        ]
+      }
+    },
+    {
+      "case_name": "67_MRA2_seg",
+      "stl_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/67_MRA2_seg_clean_flat.stl",
+      "bc_file": "/home/jiwoo/urp/data/uan/clean_flat_vessels/67_MRA2_seg_boundary_conditions.json",
+      "vtp_file": "vtp_results/67_MRA2_seg.vtp",
+      "mesh_stats": {
+        "n_points": 11058,
+        "n_cells": 22112,
+        "bounds": [
+          80.3628158569336,
+          94.35713958740234,
+          65.01585388183594,
+          84.71577453613281,
+          3.837146043777466,
+          33.64124298095703
+        ]
+      },
+      "flow_data": {
+        "pressure_range": [
+          10665.759765625,
+          15000.0
+        ],
+        "velocity_range": [
+          0.1,
+          0.1
+        ],
+        "wss_range": [
+          0.39984088809227714,
+          5.0
+        ]
+      }
+    }
+  ]
+}
